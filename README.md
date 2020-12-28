@@ -1,4 +1,4 @@
-# weakly-superivsed-temporal-action-localization
+# weakly-superivsed temporal action localization
 A curated publication list on weakly-supervised temporal action localization.
 
 This repository is made to facilitate navigating the mainstream on weakly-supervised temporal action localization.
