@@ -18,8 +18,6 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
 
 ##
 
-##
-
 ## Performance Tables
 The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.
 For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.  
@@ -28,8 +26,6 @@ The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for TH
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 
 (*: additional use of trimmed videos, &dagger;: additional use of action count information, &Dagger;: additional use of pose information)
-
-##
 
 ##
 
@@ -70,8 +66,6 @@ In addition, links to the implementations are attached with their framework spec
 
 ##
 
-##
-
 ### ActivityNet1.2
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -97,8 +91,6 @@ In addition, links to the implementations are attached with their framework spec
 
 ##
 
-##
-
 ### ActivityNet1.3
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -116,8 +108,6 @@ In addition, links to the implementations are attached with their framework spec
 | 29 | 2020 | ECCV  | TSCN                   |  35.3   |  21.4   |   5.3   |  21.7   |        |
 | 30 | 2020 | MM    | ACM-BANet              |**37.6** |**24.7** | **6.5** |**24.4** |        |
 | 31 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-
-##
 
 ##
 
@@ -158,8 +148,6 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 
 ##
 
-##
-
 ## Feedback
 
 If you have any suggestions for this repository or find missing papers, please feel free to contact me.
@@ -167,4 +155,3 @@ If you have any suggestions for this repository or find missing papers, please f
 - [e-mail](mailto:lph1114@yonsei.ac.kr)
 - [pull request](https://github.com/Pilhyeon/weakly-supervised-temporal-action-localization/pulls)
 
-##
