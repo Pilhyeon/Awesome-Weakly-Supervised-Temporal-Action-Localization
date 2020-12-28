@@ -17,7 +17,7 @@ Links to the implementations are attached if available. 'o-' and 'u-' indicate t
 | 3  | 2018 | CVPR  | STPN                   |  52.0   |  44.7   |  35.5   |  25.8   |  16.9   |   9.9   |   4.3   |  27.0   |[`[u-tensorflow]`](https://github.com/bellos1203/STPN)|
 | 4  | 2018 | ECCV  | AutoLoc                |    -    |    -    |  35.8   |  29.0   |  21.2   |  13.4   |   5.8   |    -    |[`[o-caffe]`](https://github.com/zhengshou/AutoLoc)|
 | 5  | 2018 | ECCV  | W-TALC                 |  55.2   |  49.6   |  40.1   |  31.1   |  22.8   |    -    |   7.6   |    -    |[`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch)<br/>[`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)|
-| 6  | 2019 | AAAI  | TSRNet                 |  55.90  |  46.90  |  38.30  |  28.10  |  18.60  |  11.00  |   5.59  |  29.2   |        |
+| 6  | 2019 | AAAI  | TSRNet                 |  55.9   |  46.9   |  38.3   |  28.1   |  18.6   |  11.0   |   5.6   |  29.2   |        |
 | 7  | 2019 | AAAI  | STAR&dagger;           |**68.8** |  60.0   |  48.7   |  34.7   |  23.0   |    -    |    -    |    -    |        |
 | 8  | 2019 | ICLR  | MAAN                   |  59.8   |  50.8   |  41.1   |  30.6   |  20.3   |  12.0   |   6.9   |  31.6   |[`[o-pytorch]`](https://github.com/yyuanad/MAAN)|
 | 9  | 2019 | CVPR  | Liu et al.             |  57.4   |  50.8   |  41.2   |  32.1   |  23.1   |  15.0   |   7.0   |  32.4   |[`[o-pytorch]`](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)|
