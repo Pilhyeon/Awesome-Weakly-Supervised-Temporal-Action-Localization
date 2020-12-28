@@ -10,7 +10,10 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
 
 ## Table of Contents
 - [Performance Tables](#performance-tables)
-- [Paper List](#paper-ㅣist)
+  - [THUMOS14](#thumos14)
+  - [ActivityNet1.2](#activitynet12)
+  - [ActivityNet1.3](#activitynet13)
+- [Paper List](#paper-list)
 - [Feedback](#feedback)
 
 ##
@@ -26,9 +29,7 @@ In addition, links to the implementations are attached with their framework spec
 
 ##
 
-### THUMOS'14
-
-##
+### THUMOS14
 
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.1   |  @0.2   |  @0.3   |  @0.4   |  @0.5   |  @0.6   |  @0.7   |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -64,9 +65,9 @@ In addition, links to the implementations are attached with their framework spec
 | 30 | 2020 | MM    | ACM-BANet              |  64.6   |  57.7   |  48.9   |  40.9   |  32.3   |  21.9   |  13.5   |  40.0   |        |
 | 31 | 2021 | AAAI  | Lee et al.             |  67.5   |**61.2** |**52.3** |**43.4** |**33.7** |**22.9** |  12.1   |**41.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
-### ActivityNet1.2
-
 ##
+
+### ActivityNet1.2
 
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -90,9 +91,9 @@ In addition, links to the implementations are attached with their framework spec
 | 29 | 2020 | ECCV  | TSCN                   |  37.6   |  23.7   |   5.7   |  23.6   |        |
 | 31 | 2021 | AAAI  | Lee et al.             |**41.2** |**25.6** | **6.0** |**25.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
-### ActivityNet1.3
-
 ##
+
+### ActivityNet1.3
 
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -114,8 +115,6 @@ In addition, links to the implementations are attached with their framework spec
 ##
 
 ## Paper List
-
-##
 
 1. **[UntrimmedNets]** | **[CVPR'17]** | UntrimmedNets for Weakly Supervised Action Recognition and Detection | [`[pdf]`](https://arxiv.org/pdf/1703.03329.pdf) | [`[o-matlab]`](https://github.com/wanglimin/UntrimmedNet)
 2. **[Hide-and-seek]** | **[ICCV'17]** | Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization | [`[pdf]`](https://arxiv.org/pdf/1704.04232.pdf) | [`[o-torch]`](https://github.com/kkanshul/Hide-and-Seek)
