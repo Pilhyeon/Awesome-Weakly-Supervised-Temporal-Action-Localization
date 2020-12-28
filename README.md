@@ -1,21 +1,20 @@
 # weakly-superivsed-temporal-action-localization
-A paper list on weakly-supervised temporal action localization. This repository is made to facilitate navigating the mainstream on weakly-supervised temporal action localization.
+A conference paper list on weakly-supervised temporal action localization. This repository is made to facilitate navigating the mainstream on weakly-supervised temporal action localization.
 
 *Last updated: 2020/12/28*
 
 ## Performance table
 
 ### THUMOS'14
-
-| Year | Venue | Model<br/>(or Authors) | mAP@0.1 | mAP@0.2 | mAP@0.3 | mAP@0.4 | mAP@0.5 | mAP@0.6 | mAP@0.7 | AVG|
+| Year | Venue | Model<br/>(or Authors) | @0.1 | @0.2 | @0.3 | @0.4 | @0.5 | @0.6 | @0.7 | Average mAP  |
 |:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------------:|
-| 2017 | CVPR  | UntrimmedNets          |  44.4   |  37.7   |  28.2   |  21.1   |  13.7   |    -    |    -    |      -       |
-| 2017 | ICCV  | Hide-and-seek          |  36.4   |  27.8   |  19.5   |  12.7   |   6.8   |    -    |    -    |      -       |
-| 2018 | CVPR  | STPN                   |  52.0   |  44.7   |  35.5   |  25.8   |  16.9   |   9.9   |   4.3   |    27.0      |
-| 2018 | ECCV  | AutoLoc                |    -    |    -    |  35.8   |  29.0   |  21.2   |  13.4   |   5.8   |      -       |
-| 2018 | ECCV  | W-TALC                 |  55.2   |  49.6   |  40.1   |  31.1   |  22.8   |    -    |   7.6   |      -       |
+| 2017 | CVPR  | UntrimmedNets          | 44.4 |  37.7   |  28.2   |  21.1   |  13.7   |    -    |    -    |      -       |
+| 2017 | ICCV  | Hide-and-seek          | 36.4 |  27.8   |  19.5   |  12.7   |   6.8   |    -    |    -    |      -       |
+| 2018 | CVPR  | STPN                   | 52.0 |  44.7   |  35.5   |  25.8   |  16.9   |   9.9   |   4.3   |    27.0      |
+| 2018 | ECCV  | AutoLoc                |  -   |    -    |  35.8   |  29.0   |  21.2   |  13.4   |   5.8   |      -       |
+| 2018 | ECCV  | W-TALC                 | 55.2 |  49.6   |  40.1   |  31.1   |  22.8   |    -    |   7.6   |      -       |
 | 2019 | AAAI  | TSRNet                 |  55.90  |  46.90  |  38.30  |  28.10  |  18.60  |  11.00  |   5.59  |    29.2      |
-| 2019 | AAAI  | STAR&dagger;           |**68.8** |  60.0   |  48.7   |  34.7   |  23.0   |    -    |    -    |      -       |
+| 2019 | AAAI  | STAR&dagger;           |**68.8**|  60.0   |  48.7   |  34.7   |  23.0   |    -    |    -    |      -       |
 | 2019 | ICLR  | MAAN                   |  59.8   |  50.8   |  41.1   |  30.6   |  20.3   |  12.0   |   6.9   |    31.6      |
 | 2019 | CVPR  | Liu et al.             |  57.4   |  50.8   |  41.2   |  32.1   |  23.1   |  15.0   |   7.0   |    32.4      |
 | 2019 | ICIP  | Park et al.            |    -    |    -    |  40.2   |  32.2   |  21.7   |    -    |   9.2   |      -       |
