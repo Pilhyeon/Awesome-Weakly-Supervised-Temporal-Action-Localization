@@ -1,12 +1,18 @@
 # weakly-superivsed-temporal-action-localization
-A curated publication list on weakly-supervised temporal action localization. This repository is made to facilitate navigating the mainstream on weakly-supervised temporal action localization. Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
+A curated publication list on weakly-supervised temporal action localization.
+
+This repository is made to facilitate navigating the mainstream on weakly-supervised temporal action localization.
+Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
 *Last updated: 2020/12/28*
 
 ## Performance table
-The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.  
-For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.  
-Links to the implementations are attached if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
+The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.
+For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.
+The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for THUMOS'14) or from 0.5 to 0.95 with a step size of 0.05 (for ActivityNet both versions).
+
+In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
+
 (*: additional use of trimmed videos, &dagger;: additional use of action count information, &Dagger;: additional use of pose information)
 
 ### THUMOS'14
@@ -86,7 +92,7 @@ Links to the implementations are attached if available. 'o-' and 'u-' indicate t
 | 31 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
 
-## Paper List
+## Paper List (sorted by ID)
 
 1. **[UntrimmedNets]** | **[CVPR'17]** | UntrimmedNets for Weakly Supervised Action Recognition and Detection | [`[pdf]`](https://arxiv.org/pdf/1703.03329.pdf) | [`[o-matlab]`](https://github.com/wanglimin/UntrimmedNet)
 2. **[Hide-and-seek]** | **[ICCV'17]** | Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization | [`[pdf]`](https://arxiv.org/pdf/1704.04232.pdf) | [`[o-torch]`](https://github.com/kkanshul/Hide-and-Seek)
