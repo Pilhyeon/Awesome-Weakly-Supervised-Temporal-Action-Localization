@@ -153,7 +153,7 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 
 ## Feedback
 
-If you have any suggestions for this repository or find missing papers, please feel free to contact me.
+If you have any suggestions or find missing papers, please feel free to contact me.
 
 - [e-mail](mailto:lph1114@yonsei.ac.kr)
 - [pull request](https://github.com/Pilhyeon/weakly-supervised-temporal-action-localization/pulls)
