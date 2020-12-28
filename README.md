@@ -6,9 +6,19 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
 
 *Last updated: 2020/12/28*
 
-## Performance table
+##
+
+## Table of Contents
+- [Performance Tables](#performance-tables)
+  - [THUMOS'14](#THUMOS'14)
+  - [ActivityNet1.2](#activitynet1.2)
+  - [ActivityNet1.3](#activitynet1.3)
+- [Paper List](#paper-list)
+##
+
+## Performance Tables
 The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.
-For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.
+For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.  
 The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for THUMOS'14) or from 0.5 to 0.95 with a step size of 0.05 (for ActivityNet both versions).
 
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
