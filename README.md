@@ -11,9 +11,13 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
 ## Table of Contents
 - [Performance Tables](#performance-tables)
   - [THUMOS'14](#THUMOS'14)
-  - [ActivityNet1.2](#activitynet1.2)
-  - [ActivityNet1.3](#activitynet1.3)
-- [Paper List](#paper-list)
+  - [ActivityNet1.2](#ActivityNet1.2)
+  - [ActivityNet1.3](#ActivityNet1.3)
+- [Paper List](#Paper-List-(sorted-by-ID))
+- [Feedback](#Feedback)
+
+##
+
 ##
 
 ## Performance Tables
@@ -24,6 +28,10 @@ The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for TH
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 
 (*: additional use of trimmed videos, &dagger;: additional use of action count information, &Dagger;: additional use of pose information)
+
+##
+
+##
 
 ### THUMOS'14
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.1   |  @0.2   |  @0.3   |  @0.4   |  @0.5   |  @0.6   |  @0.7   |   AVG   |  code  |
@@ -60,6 +68,10 @@ In addition, links to the implementations are attached with their framework spec
 | 30 | 2020 | MM    | ACM-BANet              |  64.6   |  57.7   |  48.9   |  40.9   |  32.3   |  21.9   |  13.5   |  40.0   |        |
 | 31 | 2021 | AAAI  | Lee et al.             |  67.5   |**61.2** |**52.3** |**43.4** |**33.7** |**22.9** |  12.1   |**41.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
+##
+
+##
+
 ### ActivityNet1.2
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -83,6 +95,10 @@ In addition, links to the implementations are attached with their framework spec
 | 29 | 2020 | ECCV  | TSCN                   |  37.6   |  23.7   |   5.7   |  23.6   |        |
 | 31 | 2021 | AAAI  | Lee et al.             |**41.2** |**25.6** | **6.0** |**25.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
+##
+
+##
+
 ### ActivityNet1.3
 | ID | Year | Venue | Model<br/>(or Authors) |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
@@ -101,6 +117,9 @@ In addition, links to the implementations are attached with their framework spec
 | 30 | 2020 | MM    | ACM-BANet              |**37.6** |**24.7** | **6.5** |**24.4** |        |
 | 31 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
+##
+
+##
 
 ## Paper List (sorted by ID)
 
@@ -137,6 +156,9 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 30. **[ACM-BANet]** | **[MM'20]** | Action Completeness Modeling with Background Aware Networks for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3394171.3413687)
 31. **[Lee et al.]** | **[AAAI'21]** | Weakly-supervised Temporal Action Localization by Uncertainty Modeling | [`[pdf]`](https://arxiv.org/pdf/2006.07006.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)
 
+##
+
+##
 
 ## Feedback
 
@@ -144,3 +166,5 @@ If you have any suggestions for this repository or find missing papers, please f
 
 - [e-mail](mailto:lph1114@yonsei.ac.kr)
 - [pull request](https://github.com/Pilhyeon/weakly-supervised-temporal-action-localization/pulls)
+
+##
