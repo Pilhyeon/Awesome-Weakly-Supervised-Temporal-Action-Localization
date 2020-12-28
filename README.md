@@ -7,7 +7,7 @@ A paper list on weakly-supervised temporal action localization. This repository 
 
 ### THUMOS'14
 
-| Year | Venue | Model<br/>(or Authors) | mAP@0.1 | mAP@0.2 | mAP@0.3 | mAP@0.4 | mAP@0.5 | mAP@0.6 | mAP@0.7 | AVG[0.1:0.7] |
+| Year | Venue | Model<br/>(or Authors) | mAP@0.1 | mAP@0.2 | mAP@0.3 | mAP@0.4 | mAP@0.5 | mAP@0.6 | mAP@0.7 | AVG|
 |:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------------:|
 | 2017 | CVPR  | UntrimmedNets          |  44.4   |  37.7   |  28.2   |  21.1   |  13.7   |    -    |    -    |      -       |
 | 2017 | ICCV  | Hide-and-seek          |  36.4   |  27.8   |  19.5   |  12.7   |   6.8   |    -    |    -    |      -       |
