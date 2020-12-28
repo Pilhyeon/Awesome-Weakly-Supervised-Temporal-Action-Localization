@@ -126,7 +126,7 @@ In addition, links to the implementations are attached with their framework spec
 8. **[STAR]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1811.07460.pdf)
 9. **[MAAN]** | **ICLR'19** | Marginalized Average Attentional Network for Weakly-Supervised Learning | [`[pdf]`](https://arxiv.org/pdf/1905.08586.pdf)
 10. **[Liu et al.]** | **CVPR'19** | Completeness Modeling and Context Separation for Weakly Supervised
-Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Completeness_Modeling_and_Context_Separation_for_Weakly_Supervised_Temporal_Action_CVPR_2019_paper.pdf) | [`[o-pytorch]`](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)|
+Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Completeness_Modeling_and_Context_Separation_for_Weakly_Supervised_Temporal_Action_CVPR_2019_paper.pdf) | [`[o-pytorch]`](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)
 11. **[Park et al.]** | **ICIP'19** | Graph Regularization Network with Semantic Affinity for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://easy00.github.io/assets/publication/icip19_Jungin_Park.pdf)
 12. **[ACN]** | **ICIP'19** | Action Coherence Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://www.yhzhai.com/publications/Action-Coherence-Network-for-Weakly-Supervised-Temporal-Action-Localization.pdf)
 13. **[ASSG]** | **MM'19** | Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/1908.02422.pdf)
