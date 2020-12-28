@@ -6,10 +6,11 @@ A curated publication list on weakly-supervised temporal action localization. Th
 ## Performance table
 The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.  
 For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.  
+Links to the implementations are attached if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 (&dagger;: additional use of action count information, &Dagger;: additional use of pose information)
 
 ### THUMOS'14
-|    | Year | Venue | Model<br/>(or Authors) |  @0.1   |  @0.2   |  @0.3   |  @0.4   |  @0.5   |  @0.6   |  @0.7   |   AVG   |  code  |
+| ID | Year | Venue | Model<br/>(or Authors) |  @0.1   |  @0.2   |  @0.3   |  @0.4   |  @0.5   |  @0.6   |  @0.7   |   AVG   |  code  |
 |:--:|:----:|:-----:|:----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
 | 1  | 2017 | CVPR  | UntrimmedNets          |  44.4   |  37.7   |  28.2   |  21.1   |  13.7   |    -    |    -    |    -    |[`[o-matlab]`](https://github.com/wanglimin/UntrimmedNet)|
 | 2  | 2017 | ICCV  | Hide-and-seek          |  36.4   |  27.8   |  19.5   |  12.7   |   6.8   |    -    |    -    |    -    |[`[o-torch]`](https://github.com/kkanshul/Hide-and-Seek)|
