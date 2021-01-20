@@ -64,9 +64,10 @@ In addition, links to the implementations are attached with their framework spec
 | 29 | 2020 | ECCV  | TSCN                   |  63.4   |  57.6   |  47.8   |  37.7   |  28.7   |  19.4   |  10.2   |  37.8   |        |
 | 30 | 2020 | MM    | ACM-BANet              |  64.6   |  57.7   |  48.9   |  40.9   |  32.3   |  21.9   |  13.5   |  40.0   |        |
 | 31 | 2021 | WACV  | RefineLoc              |    -    |    -    |  40.8   |  32.7   |  23.1   |  13.3   |   5.3   |    -    |[`[o-pytorch]`](https://github.com/HumamAlwassel/RefineLoc)|
-| 32 | 2021 | AAAI  | ACSNet                 |    -    |    -    |  51.4   |  42.7   |  32.4   |  22.0   |  11.7   |    -    |        |
-| 33 | 2021 | AAAI  | HAM-Net                |  65.9   |  59.6   |  52.2   |  43.1   |  32.6   |  21.9   |  12.5   |  41.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
-| 34 | 2021 | AAAI  | Lee et al.             |  67.5   |**61.2** |**52.3** |**43.4** |**33.7** |**22.9** |  12.1   |**41.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
+| 32 | 2021 | AAAI  | Liu et al.             |    -    |    -    |  50.8   |  41.7   |  29.6   |  20.1   |  10.7   |    -    |        |
+| 33 | 2021 | AAAI  | ACSNet                 |    -    |    -    |  51.4   |  42.7   |  32.4   |  22.0   |  11.7   |    -    |        |
+| 34 | 2021 | AAAI  | HAM-Net                |  65.9   |  59.6   |  52.2   |  43.1   |  32.6   |  21.9   |  12.5   |  41.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
+| 35 | 2021 | AAAI  | Lee et al.             |  67.5   |**61.2** |**52.3** |**43.4** |**33.7** |**22.9** |  12.1   |**41.9** |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
 ##
 
@@ -93,9 +94,10 @@ In addition, links to the implementations are attached with their framework spec
 | 27 | 2020 | ECCV  | EM-MIL                 |  37.4   |    -    |    -    |  20.3   |        |
 | 29 | 2020 | ECCV  | TSCN                   |  37.6   |  23.7   |   5.7   |  23.6   |        |
 | 31 | 2021 | WACV  | RefineLoc              |  38.7   |  22.6   |   5.5   |  23.2   |[`[o-pytorch]`](https://github.com/HumamAlwassel/RefineLoc)|
-| 32 | 2021 | AAAI  | ACSNet                 |  40.1   |**26.1** | **6.8** |**26.0** |        |
-| 33 | 2021 | AAAI  | HAM-Net                |  41.0   |  24.8   |   5.3   |  25.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
-| 34 | 2021 | AAAI  | Lee et al.             |**41.2** |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
+| 32 | 2021 | AAAI  | Liu et al.             |  39.2   |  25.6   | **6.8** |  25.5   |        |
+| 33 | 2021 | AAAI  | ACSNet                 |  40.1   |**26.1** | **6.8** |**26.0** |        |
+| 34 | 2021 | AAAI  | HAM-Net                |  41.0   |  24.8   |   5.3   |  25.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
+| 35 | 2021 | AAAI  | Lee et al.             |**41.2** |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
 ##
 
@@ -116,8 +118,9 @@ In addition, links to the implementations are attached with their framework spec
 | 28 | 2020 | ECCV  | A2CL-PT                |  36.8   |  22.0   |   5.2   |  22.5   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | TSCN                   |  35.3   |  21.4   |   5.3   |  21.7   |        |
 | 30 | 2020 | MM    | ACM-BANet              |**37.6** |**24.7** | **6.5** |**24.4** |        |
-| 32 | 2021 | AAAI  | ACSNet                 |  36.3   |  24.2   |   5.8   |**26.0** |        |
-| 34 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
+| 32 | 2021 | AAAI  | Liu et al.             |  35.1   |  23.7   |   5.6   |  23.2   |        |
+| 33 | 2021 | AAAI  | ACSNet                 |  36.3   |  24.2   |   5.8   |  23.9   |        |
+| 35 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 
 ##
 
@@ -155,9 +158,10 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 29. **[TSCN]** | **ECCV'20** | Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2010.11594.pdf)
 30. **[ACM-BANet]** | **MM'20** | Action Completeness Modeling with Background Aware Networks for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3394171.3413687)
 31. **[RefineLoc]** | **WACV'21** | RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization | [`[pdf]`](https://arxiv.org/pdf/1904.00227.pdf) | [`[o-pytorch]`](https://github.com/HumamAlwassel/RefineLoc)
-32. **[ACSNet]** | **AAAI'21** | ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](http://gr.xjtu.edu.cn/documents/1809645/1810998/AAAI2021a.pdf/651076be-cec7-2f6a-be3c-8da8c03ef12c?t=1608017799289)
-33. **[HAM-Net]** | **AAAI'21** | A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2101.00545.pdf) | [`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)
-34. **[Lee et al.]** | **AAAI'21** | Weakly-supervised Temporal Action Localization by Uncertainty Modeling | [`[pdf]`](https://arxiv.org/pdf/2006.07006.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)
+32. **[Liu et al.]** | **AAAI'21** | Weakly Supervised Temporal Action Localization Through Learning Explicit Subspaces for Action and Context | [`[pdf]`](http://gr.xjtu.edu.cn/documents/1809645/1810998/AAAI2021b.pdf/5482f149-3858-d059-f71e-e439dcc8edb2?t=1608017846044)
+33. **[ACSNet]** | **AAAI'21** | ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](http://gr.xjtu.edu.cn/documents/1809645/1810998/AAAI2021a.pdf/651076be-cec7-2f6a-be3c-8da8c03ef12c?t=1608017799289)
+34. **[HAM-Net]** | **AAAI'21** | A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2101.00545.pdf) | [`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)
+35. **[Lee et al.]** | **AAAI'21** | Weakly-supervised Temporal Action Localization by Uncertainty Modeling | [`[pdf]`](https://arxiv.org/pdf/2006.07006.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)
 
 ##
 
