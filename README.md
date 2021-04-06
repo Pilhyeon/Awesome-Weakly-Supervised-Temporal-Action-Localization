@@ -25,7 +25,7 @@ The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for TH
 
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 
-(*: additional use of trimmed videos, &dagger;: additional use of action count information, &Dagger;: additional use of pose information)
+(*: additional use of trimmed videos, &dagger;: additional use of additional count information such as action frequency, pose, and audio)
 
 ##
 
@@ -50,7 +50,7 @@ In addition, links to the implementations are attached with their framework spec
 | 15 | 2019 | ICCV  | TSM	                   |    -    |    -    |  39.5   |    -    |  24.5   |    -    |   7.1   |    -    |        |
 | 16 | 2019 | ICCV  | 3C-Net&dagger;         |  59.1   |  53.5   |  44.2   |  34.1   |  26.6   |    -    |   8.1   |    -    |[`[o-pytorch]`](https://github.com/naraysa/3c-net)|
 | 17 | 2019 | ICCV  | Nguyen et al.          |  60.4   |  56.0   |  46.6   |  37.5   |  26.8   |  17.6   |   9.0   |  36.3   |        |
-| 18 | 2020 | AAAI  | PreTrimNet&Dagger;     |  57.5   |  50.7   |  41.4   |  32.1   |  23.1   |  14.2   |   7.7   |  32.4   |        |
+| 18 | 2020 | AAAI  | PreTrimNet&dagger;     |  57.5   |  50.7   |  41.4   |  32.1   |  23.1   |  14.2   |   7.7   |  32.4   |        |
 | 19 | 2020 | AAAI  | BaS-Net                |  58.2   |  52.3   |  44.6   |  36.0   |  27.0   |  18.6   |  10.4   |  35.3   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
 | 20 | 2020 | AAAI  | RPN                    |  62.3   |  57.0   |  48.2   |  37.2   |  27.9   |  16.7   |   8.1   |  36.8   |        |
 | 21 | 2020 | WACV  | WSGN                   |  57.9   |  51.2   |  42.0   |  33.1   |  25.1   |  16.7   |   8.9   |  33.6   |        |
@@ -68,8 +68,8 @@ In addition, links to the implementations are attached with their framework spec
 | 33 | 2021 | AAAI  | ACSNet                 |    -    |    -    |  51.4   |  42.7   |  32.4   |  22.0   |  11.7   |    -    |        |
 | 34 | 2021 | AAAI  | HAM-Net                |  65.9   |  59.6   |  52.2   |  43.1   |  32.6   |  21.9   |  12.5   |  41.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
 | 35 | 2021 | AAAI  | Lee et al.             |  67.5   |**61.2** |  52.3   |**43.4** |  33.7   |  22.9   |  12.1   |  41.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-| 36 | 2021 | CVPR  | CoLA                   |  66.2   |  59.5   |  51.5   |  41.9   |  32.2   |  22.0   |  13.1   |  40.9   |        |
-| 37 | 2021 | CVPR  | TS-PCA                 |  67.6   |  61.1   |**53.4** |**43.4** |**34.3** |**24.7** |  13.7   |**42.6** |        |
+| 37 | 2021 | CVPR  | CoLA                   |  66.2   |  59.5   |  51.5   |  41.9   |  32.2   |  22.0   |  13.1   |  40.9   |        |
+| 38 | 2021 | CVPR  | TS-PCA                 |  67.6   |  61.1   |**53.4** |**43.4** |**34.3** |**24.7** |  13.7   |**42.6** |        |
 
 ##
 
@@ -97,10 +97,11 @@ In addition, links to the implementations are attached with their framework spec
 | 29 | 2020 | ECCV  | TSCN                   |  37.6   |  23.7   |   5.7   |  23.6   |        |
 | 31 | 2021 | WACV  | RefineLoc              |  38.7   |  22.6   |   5.5   |  23.2   |[`[o-pytorch]`](https://github.com/HumamAlwassel/RefineLoc)|
 | 32 | 2021 | AAAI  | Liu et al.             |  39.2   |  25.6   | **6.8** |  25.5   |        |
-| 33 | 2021 | AAAI  | ACSNet                 |  40.1   |**26.1** | **6.8** |  26.0   |        |
+| 33 | 2021 | AAAI  | ACSNet                 |  40.1   |  26.1   | **6.8** |  26.0   |        |
 | 34 | 2021 | AAAI  | HAM-Net                |  41.0   |  24.8   |   5.3   |  25.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
 | 35 | 2021 | AAAI  | Lee et al.             |  41.2   |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-| 36 | 2021 | CVPR  | CoLA                   |**42.7** |  25.7   |   5.8   |**26.1** |        |
+| 36 | 2021 | ICLR  | Lee et al.&dagger;     |**44.8** |**26.7** |   1.0   |  26.0   |        |
+| 37 | 2021 | CVPR  | CoLA                   |  42.7   |  25.7   |   5.8   |**26.1** |        |
 
 ##
 
@@ -116,7 +117,7 @@ In addition, links to the implementations are attached with their framework spec
 | 13 | 2019 | MM    | ASSG                   |  32.3   |  20.1   |   4.0   |    -    |        |
 | 15 | 2019 | ICCV  | TSM	                   |  30.3   |  19.0   |   4.5   |    -    |        |
 | 17 | 2019 | ICCV  | Nguyen et al.          |  36.4   |  19.2   |   2.9   |    -    |        |
-| 18 | 2020 | AAAI  | PreTrimNet&Dagger;     |  34.8   |  20.9   |   5.3   |  22.5   |        |
+| 18 | 2020 | AAAI  | PreTrimNet&dagger;     |  34.8   |  20.9   |   5.3   |  22.5   |        |
 | 19 | 2020 | AAAI  | BaS-Net                |  34.5   |  22.5   |   4.9   |  22.2   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
 | 28 | 2020 | ECCV  | A2CL-PT                |  36.8   |  22.0   |   5.2   |  22.5   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | TSCN                   |  35.3   |  21.4   |   5.3   |  21.7   |        |
@@ -124,7 +125,7 @@ In addition, links to the implementations are attached with their framework spec
 | 32 | 2021 | AAAI  | Liu et al.             |  35.1   |  23.7   |   5.6   |  23.2   |        |
 | 33 | 2021 | AAAI  | ACSNet                 |  36.3   |  24.2   |   5.8   |  23.9   |        |
 | 35 | 2021 | AAAI  | Lee et al.             |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-| 37 | 2021 | CVPR  | TS-PCA                 |  37.4   |  23.5   |   5.9   |  23.7   |        |
+| 38 | 2021 | CVPR  | TS-PCA                 |  37.4   |  23.5   |   5.9   |  23.7   |        |
 
 ##
 
@@ -136,8 +137,8 @@ In addition, links to the implementations are attached with their framework spec
 4. **[AutoLoc]** | **ECCV'18** | AutoLoc: Weakly-supervised Temporal Action Localization in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/1807.08333.pdf) | [`[o-caffe]`](https://github.com/zhengshou/AutoLoc)
 5. **[W-TALC]** | **ECCV'18** | W-TALC: Weakly-supervised Temporal Activity Localization and Classification | [`[pdf]`](https://arxiv.org/pdf/1807.10418.pdf) | [`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch) | [`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)
 6. **[Zhong et al.]** | **MM'18** | Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector | [`[pdf]`](https://arxiv.org/pdf/1807.02929.pdf)
-7. **[TSR-Net]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1902.07370.pdf)
-8. **[STAR]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1811.07460.pdf)
+7. **[TSR-Net*]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1902.07370.pdf)
+8. **[STAR&dagger;]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1811.07460.pdf)
 9. **[MAAN]** | **ICLR'19** | Marginalized Average Attentional Network for Weakly-Supervised Learning | [`[pdf]`](https://arxiv.org/pdf/1905.08586.pdf)
 10. **[Liu et al.]** | **CVPR'19** | Completeness Modeling and Context Separation for Weakly Supervised
 Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Completeness_Modeling_and_Context_Separation_for_Weakly_Supervised_Temporal_Action_CVPR_2019_paper.pdf) | [`[o-pytorch]`](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)
@@ -146,9 +147,9 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 13. **[ASSG]** | **MM'19** | Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/1908.02422.pdf)
 14. **[CleanNet]** | **ICCV'19** | Weakly Supervised Temporal Action Localization through Contrast based Evaluation Networks | [`[pdf]`](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Weakly_Supervised_Temporal_Action_Localization_Through_Contrast_Based_Evaluation_Networks_ICCV_2019_paper.pdf)
 15. **[TSM]** | **ICCV'19** | Temporal Structure Mining for Weakly Supervised Action Detection | [`[pdf]`](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.pdf)
-16. **[3C-Net]** | **ICCV'19** | 3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization | [`[pdf]`](https://arxiv.org/pdf/1908.08216.pdf) | [`[o-pytorch]`](https://github.com/naraysa/3c-net)
+16. **[3C-Net&dagger;]** | **ICCV'19** | 3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization | [`[pdf]`](https://arxiv.org/pdf/1908.08216.pdf) | [`[o-pytorch]`](https://github.com/naraysa/3c-net)
 17. **[Nguyen et al.]** | **ICCV'19** | Weakly-supervised Action Localization with Background Modeling | [`[pdf]`](https://arxiv.org/pdf/1908.06552.pdf)
-18. **[PreTrimNet]** | **AAAI'20** | Multi-Instance Multi-Label Action Recognition and Localization Based on Spatio-Temporal Pre-Trimming for Untrimmed Videos | [`[pdf]`](https://ojs.aaai.org/index.php/AAAI/article/download/6986/6840)
+18. **[PreTrimNet&dagger;]** | **AAAI'20** | Multi-Instance Multi-Label Action Recognition and Localization Based on Spatio-Temporal Pre-Trimming for Untrimmed Videos | [`[pdf]`](https://ojs.aaai.org/index.php/AAAI/article/download/6986/6840)
 19. **[BaS-Net]** | **AAAI'20** | Background Suppression Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/1911.09963.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)
 20. **[RPN]** | **AAAI'20** | Relational Prototypical Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](http://ir.ia.ac.cn/bitstream/173211/39128/1/AAAI-HuangL.1235.pdf)
 21. **[WSGN]** | **WACV'20** | Weakly Supervised Gaussian Networks for Action Detection | [`[pdf]`](https://arxiv.org/pdf/1904.07774.pdf)
@@ -166,8 +167,9 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 33. **[ACSNet]** | **AAAI'21** | ACSNet: Action-Context Separation Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](http://gr.xjtu.edu.cn/documents/1809645/1810998/AAAI2021a.pdf/651076be-cec7-2f6a-be3c-8da8c03ef12c?t=1608017799289)
 34. **[HAM-Net]** | **AAAI'21** | A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2101.00545.pdf) | [`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)
 35. **[Lee et al.]** | **AAAI'21** | Weakly-supervised Temporal Action Localization by Uncertainty Modeling | [`[pdf]`](https://arxiv.org/pdf/2006.07006.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)
-36. **[CoLA]** | **CVPR'21** | CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning | [`[pdf]`](https://arxiv.org/pdf/2103.16392.pdf)
-37. **[TS-PCA]** | **CVPR'21** | The Blessings of Unlabeled Background in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/2103.13183.pdf)
+36. **[Lee et al.&dagger;]** | **ICLR'21** | Cross-attentional Audio-visual Fusion for Weakly-supervised Action Localization | [`[pdf]`](https://openreview.net/pdf?id=hWr3e3r-oH5)
+37. **[CoLA]** | **CVPR'21** | CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning | [`[pdf]`](https://arxiv.org/pdf/2103.16392.pdf)
+38. **[TS-PCA]** | **CVPR'21** | The Blessings of Unlabeled Background in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/2103.13183.pdf)
 
 ##
 
