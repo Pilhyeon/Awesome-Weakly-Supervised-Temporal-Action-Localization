@@ -39,7 +39,7 @@ In addition, links to the implementations are attached with their framework spec
 | 4  | 2018 | ECCV  | AutoLoc                |    -    |    -    |  35.8   |  29.0   |  21.2   |  13.4   |   5.8   |    -    |[`[o-caffe]`](https://github.com/zhengshou/AutoLoc)|
 | 5  | 2018 | ECCV  | W-TALC                 |  55.2   |  49.6   |  40.1   |  31.1   |  22.8   |    -    |   7.6   |    -    |[`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch)<br/>[`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)|
 | 6  | 2018 | MM    | Zhong et al.           |  45.8   |  39.0   |  31.1   |  22.5   |  15.9   |    -    |    -    |    -    |        |
-| 7  | 2019 | AAAI  | TSRNet*                |  55.9   |  46.9   |  38.3   |  28.1   |  18.6   |  11.0   |   5.6   |  29.2   |        |
+| 7  | 2019 | AAAI  | TSRNet\*               |  55.9   |  46.9   |  38.3   |  28.1   |  18.6   |  11.0   |   5.6   |  29.2   |        |
 | 8  | 2019 | AAAI  | STAR&dagger;           |**68.8** |  60.0   |  48.7   |  34.7   |  23.0   |    -    |    -    |    -    |        |
 | 9  | 2019 | ICLR  | MAAN                   |  59.8   |  50.8   |  41.1   |  30.6   |  20.3   |  12.0   |   6.9   |  31.6   |[`[o-pytorch]`](https://github.com/yyuanad/MAAN)|
 | 10 | 2019 | CVPR  | Liu et al.             |  57.4   |  50.8   |  41.2   |  32.1   |  23.1   |  15.0   |   7.0   |  32.4   |[`[o-pytorch]`](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)|
@@ -137,7 +137,7 @@ In addition, links to the implementations are attached with their framework spec
 4. **[AutoLoc]** | **ECCV'18** | AutoLoc: Weakly-supervised Temporal Action Localization in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/1807.08333.pdf) | [`[o-caffe]`](https://github.com/zhengshou/AutoLoc)
 5. **[W-TALC]** | **ECCV'18** | W-TALC: Weakly-supervised Temporal Activity Localization and Classification | [`[pdf]`](https://arxiv.org/pdf/1807.10418.pdf) | [`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch) | [`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)
 6. **[Zhong et al.]** | **MM'18** | Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector | [`[pdf]`](https://arxiv.org/pdf/1807.02929.pdf)
-7. **[TSR-Net*]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1902.07370.pdf)
+7. **[TSR-Net\*]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1902.07370.pdf)
 8. **[STAR&dagger;]** | **AAAI'19** | Learning Transferable Self-attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision | [`[pdf]`](https://arxiv.org/pdf/1811.07460.pdf)
 9. **[MAAN]** | **ICLR'19** | Marginalized Average Attentional Network for Weakly-Supervised Learning | [`[pdf]`](https://arxiv.org/pdf/1905.08586.pdf)
 10. **[Liu et al.]** | **CVPR'19** | Completeness Modeling and Context Separation for Weakly Supervised
