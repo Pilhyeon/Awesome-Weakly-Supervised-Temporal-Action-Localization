@@ -152,7 +152,7 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 16. **[3C-Net&dagger;]** | **ICCV'19** | 3C-Net: Category Count and Center Loss for Weakly-Supervised Action Localization | [`[pdf]`](https://arxiv.org/pdf/1908.08216.pdf) | [`[o-pytorch]`](https://github.com/naraysa/3c-net)
 17. **[Nguyen et al.]** | **ICCV'19** | Weakly-supervised Action Localization with Background Modeling | [`[pdf]`](https://arxiv.org/pdf/1908.06552.pdf)
 18. **[PreTrimNet&dagger;]** | **AAAI'20** | Multi-Instance Multi-Label Action Recognition and Localization Based on Spatio-Temporal Pre-Trimming for Untrimmed Videos | [`[pdf]`](https://ojs.aaai.org/index.php/AAAI/article/download/6986/6840)
-19. **[BaS-Net]** | **AAAI'20** | Background Suppression Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/1911.09963.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)
+19. <span id = "10019">**[BaS-Net]**</span> | **AAAI'20** | Background Suppression Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/1911.09963.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)
 20. **[RPN]** | **AAAI'20** | Relational Prototypical Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](http://ir.ia.ac.cn/bitstream/173211/39128/1/AAAI-HuangL.1235.pdf)
 21. **[WSGN]** | **WACV'20** | Weakly Supervised Gaussian Networks for Action Detection | [`[pdf]`](https://arxiv.org/pdf/1904.07774.pdf)
 22. **[Islam and Radke]** | **WACV'20** | Weakly Supervised Temporal Action Localization Using Deep Metric Learning | [`[pdf]`](https://arxiv.org/pdf/2001.07793.pdf) | [`[o-pytorch]`](https://github.com/asrafulashiq/wsad)
