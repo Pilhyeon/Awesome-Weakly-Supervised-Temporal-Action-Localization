@@ -120,7 +120,7 @@ In addition, links to the implementations are attached with their framework spec
 | 15 | 2019 | ICCV  | TSM	                   |  30.3   |  19.0   |   4.5   |    -    |        |
 | 17 | 2019 | ICCV  | Nguyen et al.          |  36.4   |  19.2   |   2.9   |    -    |        |
 | 18 | 2020 | AAAI  | PreTrimNet&dagger;     |  34.8   |  20.9   |   5.3   |  22.5   |        |
-| 19 | 2020 | AAAI  | BaS-Net                |  34.5   |  22.5   |   4.9   |  22.2   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
+| 19 | 2020 | AAAI  | [BaS-Net](#10019)      |  34.5   |  22.5   |   4.9   |  22.2   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
 | 28 | 2020 | ECCV  | A2CL-PT                |  36.8   |  22.0   |   5.2   |  22.5   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | TSCN                   |  35.3   |  21.4   |   5.3   |  21.7   |        |
 | 30 | 2020 | MM    | ACM-BANet              |**37.6** |**24.7** | **6.5** |**24.4** |        |
