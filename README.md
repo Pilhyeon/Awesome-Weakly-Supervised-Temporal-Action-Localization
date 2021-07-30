@@ -71,8 +71,9 @@ In addition, links to the implementations are attached with their framework spec
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  67.0   |    -    |  51.8   |    -    |  31.1   |    -    |  11.4   |    -    |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
 | 38 | 2021 | CVPR  | [CoLA](#1038)              |  66.2   |  59.5   |  51.5   |  41.9   |  32.2   |  22.0   |  13.1   |  40.9   |        |
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  66.2   |  61.9   |  54.9   |  44.4   |  33.3   |  20.5   |   9.0   |  41.5   |        |
-| 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  67.6   |  61.1   |  53.4   |  43.4   |  34.3   |**24.7** |  13.7   |  42.6   |        |
-| 41 | 2021 | CVPR  | [UGCT](#1041)              |**69.2** |**62.9** |**55.5** |**46.5** |**35.9** |  23.8   |  11.4   |**43.6** |        |
+| 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  67.6   |  61.1   |  53.4   |  43.4   |  34.3   |  24.7   |  13.7   |  42.6   |        |
+| 41 | 2021 | CVPR  | [UGCT](#1041)              |  69.2   |  62.9   |**55.5** |**46.5** |  35.9   |  23.8   |  11.4   |  43.6   |        |
+| 42 | 2021 | MM    | [CO<sub>2</sub>-Net](#1042)|**70.1** |**63.6** |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |**44.6** |        |
 
 ##
 
@@ -105,9 +106,10 @@ In addition, links to the implementations are attached with their framework spec
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  41.2   |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 | 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|**44.8** |**26.7** |   1.0   |  26.0   |        |
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  40.2   |    -    |    -    |  25.8   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
-| 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |**26.1** |        |
+| 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |  26.1   |        |
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  42.0   |  25.0   |   5.6   |  25.5   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  41.8   |  25.3   |   5.9   |  25.8   |        |
+| 42 | 2021 | MM    | [CO<sub>2</sub>-Net](#1042)|  43.3   |  26.3   |   5.2   |**26.4** |        |
 
 ##
 
@@ -181,6 +183,7 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 39. <span id = "1039">**[AUMN]**</span> | **CVPR'21** | Action Unit Memory Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2104.14135.pdf)
 40. <span id = "1040">**[TS-PCA]**</span> | **CVPR'21** | The Blessings of Unlabeled Background in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/2103.13183.pdf)
 41. <span id = "1041">**[UGCT]**</span> | **CVPR'21** | Uncertainty Guided Collaborative Training for Weakly Supervised Temporal Action Detection | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Uncertainty_Guided_Collaborative_Training_for_Weakly_Supervised_Temporal_Action_Detection_CVPR_2021_paper.pdf)
+42. <span id = "1042">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
 
 ##
 
