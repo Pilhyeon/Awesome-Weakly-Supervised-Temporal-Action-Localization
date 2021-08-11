@@ -25,7 +25,9 @@ The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for TH
 
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 
-(*: additional use of trimmed videos, &dagger;: additional use of additional count information such as action frequency, pose, and audio)
+\[Note\] <br/>
+*: use of additional trimmed videos <br/>
+&dagger;: use of additional information such as action count, pose, and audio
 
 ##
 
