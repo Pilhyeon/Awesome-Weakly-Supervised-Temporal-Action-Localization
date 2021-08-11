@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2021/06/15*
+*Last updated: 2021/08/11*
 
 ##
 
@@ -71,7 +71,7 @@ In addition, links to the implementations are attached with their framework spec
 | 34 | 2021 | AAAI  | [HAM-Net](#1034)           |  65.9   |  59.6   |  52.2   |  43.1   |  32.6   |  21.9   |  12.5   |  41.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  67.5   |  61.2   |  52.3   |  43.4   |  33.7   |  22.9   |  12.1   |  41.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  67.0   |    -    |  51.8   |    -    |  31.1   |    -    |  11.4   |    -    |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
-| 38 | 2021 | CVPR  | [CoLA](#1038)              |  66.2   |  59.5   |  51.5   |  41.9   |  32.2   |  22.0   |  13.1   |  40.9   |        |
+| 38 | 2021 | CVPR  | [CoLA](#1038)              |  66.2   |  59.5   |  51.5   |  41.9   |  32.2   |  22.0   |  13.1   |  40.9   |[`[o-pytorch]`](https://github.com/zhang-can/CoLA)|
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  66.2   |  61.9   |  54.9   |  44.4   |  33.3   |  20.5   |   9.0   |  41.5   |        |
 | 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  67.6   |  61.1   |  53.4   |  43.4   |  34.3   |  24.7   |  13.7   |  42.6   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  69.2   |  62.9   |**55.5** |**46.5** |  35.9   |  23.8   |  11.4   |  43.6   |        |
@@ -108,7 +108,7 @@ In addition, links to the implementations are attached with their framework spec
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  41.2   |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 | 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|**44.8** |**26.7** |   1.0   |  26.0   |        |
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  40.2   |    -    |    -    |  25.8   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
-| 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |  26.1   |        |
+| 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |  26.1   |[`[o-pytorch]`](https://github.com/zhang-can/CoLA)|
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  42.0   |  25.0   |   5.6   |  25.5   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  41.8   |  25.3   |   5.9   |  25.8   |        |
 | 42 | 2021 | MM    | [CO<sub>2</sub>-Net](#1042)|  43.3   |  26.3   |   5.2   |**26.4** |        |
@@ -181,7 +181,7 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 35. <span id = "1035">**[Lee et al.]**</span> | **AAAI'21** | Weakly-supervised Temporal Action Localization by Uncertainty Modeling | [`[pdf]`](https://arxiv.org/pdf/2006.07006.pdf) | [`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)
 36. <span id = "1036">**[Lee et al.&dagger;]**</span> | **ICLR'21** | Cross-attentional Audio-visual Fusion for Weakly-supervised Action Localization | [`[pdf]`](https://openreview.net/pdf?id=hWr3e3r-oH5)
 37. <span id = "1037">**[ASL]**</span> | **CVPR'21** | Weakly Supervised Action Selection Learning in Video | [`[pdf]`](http://www.cs.toronto.edu/~mvolkovs/CVPR2021_asl.pdf) | [`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)
-38. <span id = "1038">**[CoLA]**</span> | **CVPR'21** | CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning | [`[pdf]`](https://arxiv.org/pdf/2103.16392.pdf)
+38. <span id = "1038">**[CoLA]**</span> | **CVPR'21** | CoLA: Weakly-Supervised Temporal Action Localization with Snippet Contrastive Learning | [`[pdf]`](https://arxiv.org/pdf/2103.16392.pdf) | [`[o-pytorch]`](https://github.com/zhang-can/CoLA)
 39. <span id = "1039">**[AUMN]**</span> | **CVPR'21** | Action Unit Memory Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2104.14135.pdf)
 40. <span id = "1040">**[TS-PCA]**</span> | **CVPR'21** | The Blessings of Unlabeled Background in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/2103.13183.pdf)
 41. <span id = "1041">**[UGCT]**</span> | **CVPR'21** | Uncertainty Guided Collaborative Training for Weakly Supervised Temporal Action Detection | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Uncertainty_Guided_Collaborative_Training_for_Weakly_Supervised_Temporal_Action_Detection_CVPR_2021_paper.pdf)
