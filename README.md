@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2021/09/17 (ICCV'21 added)*
+*Last updated: 2021/10/19 (MM'21 added)*
 
 ##
 
@@ -75,9 +75,10 @@ In addition, links to the implementations are attached with their framework spec
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  66.2   |  61.9   |  54.9   |  44.4   |  33.3   |  20.5   |   9.0   |  41.5   |        |
 | 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  67.6   |  61.1   |  53.4   |  43.4   |  34.3   |  24.7   |  13.7   |  42.6   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  69.2   |  62.9   |**55.5** |**46.5** |  35.9   |  23.8   |  11.4   |  43.6   |        |
-| 42 | 2021 | MM    | [CO<sub>2</sub>-Net](#1042)|**70.1** |**63.6** |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |**44.6** |        |
-| 43 | 2021 | ICCV  | [D2-Net](#1043)            |  65.7   |  60.2   |  52.3   |  43.4   |  36.0   |    -    |    -    |    -    |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
-| 44 | 2021 | ICCV  | [FAC-Net](#1044)           |  67.6   |  62.1   |  52.6   |  44.3   |  33.4   |  22.5   |  12.7   |  42.2   |        |
+| 42 | 2021 | ICCV  | [D2-Net](#1042)            |  65.7   |  60.2   |  52.3   |  43.4   |  36.0   |    -    |    -    |    -    |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
+| 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  67.6   |  62.1   |  52.6   |  44.3   |  33.4   |  22.5   |  12.7   |  42.2   |        |
+| 44 | 2021 | MM    | [CSCL](#1044)              |  68.0   |  61.8   |  52.7   |  43.3   |  33.4   |  21.8   |  12.3   |  41.9   |        |
+| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|**70.1** |**63.6** |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |**44.6** |        |
 
 ##
 
@@ -108,13 +109,14 @@ In addition, links to the implementations are attached with their framework spec
 | 33 | 2021 | AAAI  | [ACSNet](#1033)            |  40.1   |  26.1   | **6.8** |  26.0   |        |
 | 34 | 2021 | AAAI  | [HAM-Net](#1034)           |  41.0   |  24.8   |   5.3   |  25.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  41.2   |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-| 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|**44.8** |**26.7** |   1.0   |  26.0   |        |
+| 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|**44.8** |  26.7   |   1.0   |  26.0   |        |
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  40.2   |    -    |    -    |  25.8   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
 | 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |  26.1   |[`[o-pytorch]`](https://github.com/zhang-can/CoLA)|
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  42.0   |  25.0   |   5.6   |  25.5   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  41.8   |  25.3   |   5.9   |  25.8   |        |
-| 42 | 2021 | MM    | [CO<sub>2</sub>-Net](#1042)|  43.3   |  26.3   |   5.2   |**26.4** |        |
-| 43 | 2021 | ICCV  | [D2-Net](#1043)            |  42.3   |  25.5   |   5.8   |  26.0   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
+| 42 | 2021 | ICCV  | [D2-Net](#1042)            |  42.3   |  25.5   |   5.8   |  26.0   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
+| 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |**26.9** |   5.6   |**26.9** |        |
+| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |        |
 
 ##
 
@@ -141,7 +143,7 @@ In addition, links to the implementations are attached with their framework spec
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |**38.3** |  23.5   |   5.2   |  23.5   |        |
 | 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  37.4   |  23.5   |   5.9   |  23.7   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  39.1   |  22.4   |   5.8   |  23.8   |        |
-| 44 | 2021 | ICCV  | [FAC-Net](#1044)           |  37.6   |  24.2   |   6.0   |  24.0   |        |
+| 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  37.6   |  24.2   |   6.0   |  24.0   |        |
 
 ##
 
@@ -189,11 +191,12 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 39. <span id = "1039">**[AUMN]**</span> | **CVPR'21** | Action Unit Memory Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2104.14135.pdf)
 40. <span id = "1040">**[TS-PCA]**</span> | **CVPR'21** | The Blessings of Unlabeled Background in Untrimmed Videos | [`[pdf]`](https://arxiv.org/pdf/2103.13183.pdf)
 41. <span id = "1041">**[UGCT]**</span> | **CVPR'21** | Uncertainty Guided Collaborative Training for Weakly Supervised Temporal Action Detection | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Uncertainty_Guided_Collaborative_Training_for_Weakly_Supervised_Temporal_Action_Detection_CVPR_2021_paper.pdf)
-42. <span id = "1042">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
-43. <span id = "1043">**[D2-Net]**</span> | **ICCV'21** | D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings
+42. <span id = "1042">**[D2-Net]**</span> | **ICCV'21** | D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings
 and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[o-pytorch]`](https://github.com/naraysa/D2-Net)
-44. <span id = "1044">**[FAC-Net]**</span> | **ICCV'21** | Foreground-Action Consistency Network for Weakly Supervised Temporal Action Localization
+43. <span id = "1043">**[FAC-Net]**</span> | **ICCV'21** | Foreground-Action Consistency Network for Weakly Supervised Temporal Action Localization
  | [`[pdf]`](https://arxiv.org/pdf/2108.06524.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)
+44. <span id = "1044">**[CSCL]**</span> | **MM'21** | Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261)
+45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
 
 ##
 
