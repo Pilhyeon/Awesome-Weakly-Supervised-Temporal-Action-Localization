@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2021/10/19 (MM'21 added)*
+*Last updated: 2021/12/31 (AAAI'22 added)*
 
 ##
 
@@ -79,6 +79,7 @@ In addition, links to the implementations are attached with their framework spec
 | 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  67.6   |  62.1   |  52.6   |  44.3   |  33.4   |  22.5   |  12.7   |  42.2   |[`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)|
 | 44 | 2021 | MM    | [CSCL](#1044)              |  68.0   |  61.8   |  52.7   |  43.3   |  33.4   |  21.8   |  12.3   |  41.9   |        |
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|**70.1** |**63.6** |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |**44.6** |        |
+| 46 | 2022 | AAAI  | [ACGNet](#1046)            |  68.1   |  62.6   |  53.1   |  44.6   |  34.7   |  22.6   |  12.0   |  42.5   |        |
 
 ##
 
@@ -117,6 +118,7 @@ In addition, links to the implementations are attached with their framework spec
 | 42 | 2021 | ICCV  | [D2-Net](#1042)            |  42.3   |  25.5   |   5.8   |  26.0   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
 | 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |**26.9** |   5.6   |**26.9** |        |
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |        |
+| 46 | 2022 | AAAI  | [ACGNet](#1046)            |  41.8   |  26.0   |   5.9   |  26.1   |        |
 
 ##
 
@@ -197,6 +199,7 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
  | [`[pdf]`](https://arxiv.org/pdf/2108.06524.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)
 44. <span id = "1044">**[CSCL]**</span> | **MM'21** | Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261)
 45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
+46. <span id = "1046">**[ACGNet]**</span> | **AAAI'22** | ACGNet: Action Complement Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2112.10977.pdf)
 
 ##
 
