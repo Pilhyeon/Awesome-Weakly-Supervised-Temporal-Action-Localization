@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2021/12/31 (AAAI'22 added)*
+*Last updated: 2022/3/10 (CVPR'22 added)*
 
 ##
 
@@ -202,7 +202,7 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 44. <span id = "1044">**[CSCL]**</span> | **MM'21** | Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261)
 45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
 46. <span id = "1046">**[ACGNet]**</span> | **AAAI'22** | ACGNet: Action Complement Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2112.10977.pdf)
-47. <span id = "1047">**[CVPR]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf)
+47. <span id = "1047">**[CVPR]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
 
 ##
 
