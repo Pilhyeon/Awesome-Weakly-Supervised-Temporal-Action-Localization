@@ -78,7 +78,7 @@ In addition, links to the implementations are attached with their framework spec
 | 42 | 2021 | ICCV  | [D2-Net](#1042)            |  65.7   |  60.2   |  52.3   |  43.4   |  36.0   |    -    |    -    |    -    |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
 | 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  67.6   |  62.1   |  52.6   |  44.3   |  33.4   |  22.5   |  12.7   |  42.2   |[`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)|
 | 44 | 2021 | MM    | [CSCL](#1044)              |  68.0   |  61.8   |  52.7   |  43.3   |  33.4   |  21.8   |  12.3   |  41.9   |        |
-| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |  44.6   |        |
+| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |  44.6   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  68.1   |  62.6   |  53.1   |  44.6   |  34.7   |  22.6   |  12.0   |  42.5   |        |
 | 47 | 2022 | CVPR  | [Huang et al.](#1047)      |**71.3** |**65.3** |**55.8** |**47.5** |  38.2   |  25.4   |  12.5   |**45.1** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
 
@@ -118,7 +118,7 @@ In addition, links to the implementations are attached with their framework spec
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  41.8   |  25.3   |   5.9   |  25.8   |        |
 | 42 | 2021 | ICCV  | [D2-Net](#1042)            |  42.3   |  25.5   |   5.8   |  26.0   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
 | 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |**26.9** |   5.6   |**26.9** |        |
-| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |        |
+| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  41.8   |  26.0   |   5.9   |  26.1   |        |
 
 ##
@@ -200,7 +200,7 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 43. <span id = "1043">**[FAC-Net]**</span> | **ICCV'21** | Foreground-Action Consistency Network for Weakly Supervised Temporal Action Localization
  | [`[pdf]`](https://arxiv.org/pdf/2108.06524.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)
 44. <span id = "1044">**[CSCL]**</span> | **MM'21** | Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261)
-45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf)
+45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf) | [`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)
 46. <span id = "1046">**[ACGNet]**</span> | **AAAI'22** | ACGNet: Action Complement Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2112.10977.pdf)
 47. <span id = "1047">**[CVPR]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
 
