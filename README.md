@@ -81,7 +81,7 @@ In addition, links to the implementations are attached with their framework spec
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |  44.6   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  68.1   |  62.6   |  53.1   |  44.6   |  34.7   |  22.6   |  12.0   |  42.5   |        |
 | 47 | 2022 | CVPR  | [Huang et al.](#1047)      |**71.3** |  65.3   |  55.8   |**47.5** |  38.2   |  25.4   |  12.5   |**45.1** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
-| 48 | 2022 | CVPR  | [ASM-Loc](#1048)           |  71.2** |**65.5** |**57.1** |  46.8   |  36.6   |  25.2   |  13.4   |**45.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 48 | 2022 | CVPR  | [ASM-Loc](#1048)           |  71.2   |**65.5** |**57.1** |  46.8   |  36.6   |  25.2   |  13.4   |**45.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 
 ##
 
