@@ -61,7 +61,7 @@ In addition, links to the implementations are attached with their framework spec
 | 24 | 2020 | CVPR  | [ActionBytes](#1024)       |    -    |    -    |  43.0   |  35.8   |  29.0   |    -    |   9.5   |    -    |        |
 | 25 | 2020 | CVPR  | [DGAM](#1025)              |  60.0   |  54.2   |  46.8   |  38.2   |  28.8   |  19.8   |  11.4   |  37.0   |[`[o-pytorch]`](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)|
 | 26 | 2020 | CVPR  | [Gong et al.](#1026)       |    -    |    -    |  46.9   |  38.9   |  30.1   |  19.8   |  10.4   |    -    |[`[o-pytorch]`](https://github.com/GGQ1996/action_co_localization/tree/master/ACL_Anet_release)|
-| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  59.1   |  52.7   |  45.5   |  36.8   |  30.5   |  22.7   |**16.4** |  37.7   |        |
+| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  59.1   |  52.7   |  45.5   |  36.8   |  30.5   |  22.7   |**16.4** |  37.7   |[`[o-pytorch]`](https://github.com/airmachine/EM-MIL-WeaklyActionDetection)|
 | 28 | 2020 | ECCV  | [A2CL-PT](#1028)           |  61.2   |  56.1   |  48.1   |  39.0   |  30.1   |  19.2   |  10.6   |  37.8   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | [TSCN](#1029)              |  63.4   |  57.6   |  47.8   |  37.7   |  28.7   |  19.4   |  10.2   |  37.8   |        |
 | 30 | 2020 | MM    | [ACM-BANet](#1030)         |  64.6   |  57.7   |  48.9   |  40.9   |  32.3   |  21.9   |  13.5   |  40.0   |        |
@@ -105,7 +105,7 @@ In addition, links to the implementations are attached with their framework spec
 | 24 | 2020 | CVPR  | [ActionBytes](#1024)       |  39.4   |    -    |    -    |    -    |        |
 | 25 | 2020 | CVPR  | [DGAM](#1025)              |  41.0   |  23.5   |   5.3   |  24.4   |[`[o-pytorch]`](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)|
 | 26 | 2020 | CVPR  | [Gong et al.](#1026)       |  40.0   |  25.0   |   4.6   |  24.6   |[`[o-pytorch]`](https://github.com/GGQ1996/action_co_localization/tree/master/ACL_Anet_release)|
-| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  37.4   |    -    |    -    |  20.3   |        |
+| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  37.4   |    -    |    -    |  20.3   |[`[o-pytorch]`](https://github.com/airmachine/EM-MIL-WeaklyActionDetection)|
 | 29 | 2020 | ECCV  | [TSCN](#1029)              |  37.6   |  23.7   |   5.7   |  23.6   |        |
 | 31 | 2021 | WACV  | [RefineLoc](#1031)         |  38.7   |  22.6   |   5.5   |  23.2   |[`[o-pytorch]`](https://github.com/HumamAlwassel/RefineLoc)|
 | 32 | 2021 | AAAI  | [Liu et al.](#1032)        |  39.2   |  25.6   | **6.8** |  25.5   |        |
@@ -182,7 +182,7 @@ Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_C
 24. <span id = "1024">**[ActionBytes]**</span> | **CVPR'20** | ActionBytes: Learning from Trimmed Videos to Localize Actions | [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jain_ActionBytes_Learning_From_Trimmed_Videos_to_Localize_Actions_CVPR_2020_paper.pdf)
 25. <span id = "1025">**[DGAM]**</span> | **CVPR'20** | Weakly-Supervised Action Localization by Generative Attention Modeling | [`[pdf]`](https://arxiv.org/pdf/2003.12424.pdf) | [`[o-pytorch]`](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)
 26. <span id = "1026">**[Gong et al.]**</span> | **CVPR'20** | Learning Temporal Co-Attention Models for Unsupervised Video Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gong_Learning_Temporal_Co-Attention_Models_for_Unsupervised_Video_Action_Localization_CVPR_2020_paper.pdf) | [`[o-pytorch]`](https://github.com/GGQ1996/action_co_localization/tree/master/ACL_Anet_release)
-27. <span id = "1027">**[EM-MIL]**</span> | **ECCV'20** | Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning | [`[pdf]`](https://arxiv.org/pdf/2004.00163.pdf)
+27. <span id = "1027">**[EM-MIL]**</span> | **ECCV'20** | Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning | [`[pdf]`](https://arxiv.org/pdf/2004.00163.pdf) | [`[o-pytorch]`](https://github.com/airmachine/EM-MIL-WeaklyActionDetection)
 28. <span id = "1028">**[A2CL-PT]**</span> | **ECCV'20** | Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization | [`[pdf]`](https://arxiv.org/pdf/2007.06643.pdf) | [`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)
 29. <span id = "1029">**[TSCN]**</span> | **ECCV'20** | Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2010.11594.pdf)
 30. <span id = "1030">**[ACM-BANet]**</span> | **MM'20** | Action Completeness Modeling with Background Aware Networks for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3394171.3413687)
