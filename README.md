@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2022/3/10 (CVPR'22 added)*
+*Last updated: 2022/3/30 (CVPR'22 added)*
 
 ##
 
@@ -80,7 +80,8 @@ In addition, links to the implementations are attached with their framework spec
 | 44 | 2021 | MM    | [CSCL](#1044)              |  68.0   |  61.8   |  52.7   |  43.3   |  33.4   |  21.8   |  12.3   |  41.9   |        |
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |  44.6   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  68.1   |  62.6   |  53.1   |  44.6   |  34.7   |  22.6   |  12.0   |  42.5   |        |
-| 47 | 2022 | CVPR  | [Huang et al.](#1047)      |**71.3** |**65.3** |**55.8** |**47.5** |  38.2   |  25.4   |  12.5   |**45.1** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
+| 47 | 2022 | CVPR  | [Huang et al.](#1047)      |**71.3** |  65.3   |  55.8   |**47.5** |  38.2   |  25.4   |  12.5   |**45.1** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
+| 48 | 2022 | CVPR  | [ASM-Loc](#1048)           |  71.2** |**65.5** |**57.1** |  46.8   |  36.6   |  25.2   |  13.4   |**45.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 
 ##
 
@@ -139,7 +140,7 @@ In addition, links to the implementations are attached with their framework spec
 | 19 | 2020 | AAAI  | [BaS-Net](#1019)           |  34.5   |  22.5   |   4.9   |  22.2   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
 | 28 | 2020 | ECCV  | [A2CL-PT](#1028)           |  36.8   |  22.0   |   5.2   |  22.5   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | [TSCN](#1029)              |  35.3   |  21.4   |   5.3   |  21.7   |        |
-| 30 | 2020 | MM    | [ACM-BANet](#1030)         |  37.6   |**24.7** | **6.5** |  24.4   |        |
+| 30 | 2020 | MM    | [ACM-BANet](#1030)         |  37.6   |  24.7   | **6.5** |  24.4   |        |
 | 32 | 2021 | AAAI  | [Liu et al.](#1032)        |  35.1   |  23.7   |   5.6   |  23.2   |        |
 | 33 | 2021 | AAAI  | [ACSNet](#1033)            |  36.3   |  24.2   |   5.8   |  23.9   |        |
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
@@ -147,7 +148,8 @@ In addition, links to the implementations are attached with their framework spec
 | 40 | 2021 | CVPR  | [TS-PCA](#1040)            |  37.4   |  23.5   |   5.9   |  23.7   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  39.1   |  22.4   |   5.8   |  23.8   |        |
 | 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  37.6   |  24.2   |   6.0   |  24.0   |[`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)|
-| 47 | 2022 | CVPR  | [Huang et al.](#1047)      |**40.6** |  24.6   |   5.9   |**25.0** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
+| 47 | 2022 | CVPR  | [Huang et al.](#1047)      |  40.6   |  24.6   |   5.9   |  25.0   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
+| 48 | 2022 | CVPR  | [ASM-Loc](#1048)           |**41.0** |**24.9** |   6.2   |**25.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 
 ##
 
@@ -202,7 +204,8 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 44. <span id = "1044">**[CSCL]**</span> | **MM'21** | Weakly-Supervised Temporal Action Localization via Cross-Stream Collaborative Learning | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3474085.3475261)
 45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf) | [`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)
 46. <span id = "1046">**[ACGNet]**</span> | **AAAI'22** | ACGNet: Action Complement Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2112.10977.pdf)
-47. <span id = "1047">**[CVPR]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
+47. <span id = "1047">**[Huang et al.]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
+48. <span id = "1048">**[ASM-Loc]**</span> | **CVPR'22** | ASM-Loc: Action-aware Segment Modeling for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2203.15187.pdf) | [`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)
 
 ##
 
