@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2022/3/30 (CVPR'22 added)*
+*Last updated: 2022/4/1 (CVPR'22 added)*
 
 ##
 
