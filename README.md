@@ -209,8 +209,8 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 45. <span id = "1045">**[CO<sub>2</sub>-Net]**</span> | **MM'21** | Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2107.12589.pdf) | [`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)
 46. <span id = "1046">**[ACGNet]**</span> | **AAAI'22** | ACGNet: Action Complement Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2112.10977.pdf)
 47. <span id = "1047">**[FTCL]**</span> | **CVPR'22** | Fine-grained Temporal Contrastive Learning for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2203.16800.pdf) | [`[o-pytorch]`](https://github.com/MengyuanChen21/CVPR2022-FTCL)
-48. <span id = "1048">**[DCC]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
-49. <span id = "1049">**[Huang et al.]**</span> | **CVPR'22** | Exploring Denoised Cross-video Contrast for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://tianyu-yang.com/resources/dcc.pdf)
+49. <span id = "1048">**[DCC]**</span> | **CVPR'22** | Exploring Denoised Cross-video Contrast for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://tianyu-yang.com/resources/dcc.pdf)
+48. <span id = "1049">**[Huang et al.]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
 50. <span id = "1050">**[ASM-Loc]**</span> | **CVPR'22** | ASM-Loc: Action-aware Segment Modeling for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2203.15187.pdf) | [`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)
 
 ##
