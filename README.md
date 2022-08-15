@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2022/4/12 (CVPR'22 added)*
+*Last updated: 2022/8/15 (ECCV'22 added)*
 
 ##
 
@@ -13,6 +13,8 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
   - [THUMOS14](#thumos14)
   - [ActivityNet1.2](#activitynet12)
   - [ActivityNet1.3](#activitynet13)
+  - [FineAction](#fineaction)
+  - [FineGym](#finegym)
 - [Paper List](#paper-list)
 - [Feedback](#feedback)
 
@@ -21,7 +23,7 @@ Please note that only **accepted** papers (for reliability) by **conferences** (
 ## Performance Tables
 The mean average precisions (mAPs) under the standard intersection over union (IoU) thresholds are reported.
 For example, '@0.5' indicates the mAP score at the IoU threshold of 0.5.  
-The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for THUMOS14) or from 0.5 to 0.95 with a step size of 0.05 (for ActivityNet both versions).
+The AVG denotes the average mAP under the IoU thresholds from 0.1 to 0.7 (for THUMOS14), from 0.1 to 0.5 (for FineGym), or from 0.5 to 0.95 with a step size of 0.05 (for ActivityNet both versions and FineAction).
 
 In addition, links to the implementations are attached with their framework specification if available. 'o-' and 'u-' indicate the official and the unofficial implementations, respectively.
 
@@ -157,6 +159,30 @@ In addition, links to the implementations are attached with their framework spec
 
 ##
 
+### FineAction
+
+| ID | Year | Venue |   Model<br/>(or Authors)   |  @0.5   |  @0.75  |  @0.95  |   AVG   |  code  |
+|:--:|:----:|:-----:|:--------------------------:|:-------:|:-------:|:-------:|:-------:|:------:|
+| 5  | 2018 | ECCV  | [W-TALC](#1005) (Reprod.)  |  6.18   |  3.15   |  0.83   |  3.45   |[`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch)<br/>[`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)|
+| 35 | 2021 | AAAI  | [Lee et al.](#1035) (Reprod.)|  6.65   |  3.23   |  0.95   |  3.64   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
+| 37 | 2021 | CVPR  | [ASL](#1037) (Reprod.)     |  6.79   |  2.68   |  0.81   |  3.30   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
+| 42 | 2021 | ICCV  | [D2-Net](#1042) (Reprod.)  |  6.75   |  3.02   |  0.82   |  3.35   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
+| 51 | 2022 | ECCV  | [HAAN](#1051)              |**7.05** |**3.95** |**1.14** |**4.10** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
+
+##
+
+### FineGym
+
+| ID | Year | Venue |   Model<br/>(or Authors)   |  @0.1   |  @0.2   |  @0.3   |  @0.4   |  @0.5   |   AVG   |  code  |
+|:--:|:----:|:-----:|:--------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
+| 5  | 2018 | ECCV  | [W-TALC](#1005) (Reprod.)  |  8.85   |  7.32   |  6.24   |  4.95   |  3.15   |  6.03   |[`[o-pytorch]`](https://github.com/sujoyp/wtalc-pytorch)<br/>[`[o-tensorflow]`](https://github.com/sujoyp/wtalc-tensorflow)|
+| 35 | 2021 | AAAI  | [Lee et al.](#1035) (Reprod.)|  9.45   |  8.63   |  5.10   |  4.34   |  3.05   |  6.11   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
+| 37 | 2021 | CVPR  | [ASL](#1037) (Reprod.)     |  9.33   |  7.92   |  5.45   |  3.67   |  2.24   |  5.74   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
+| 42 | 2021 | ICCV  | [D2-Net](#1042) (Reprod.)  |  9.46   |  8.67   |  5.21   |  4.22   |  2.65   |  6.04   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
+| 51 | 2022 | ECCV  | [HAAN](#1051)              |**10.79**|**9.62** |**7.65** |**6.16** |**4.16** |**7.67** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
+
+##
+
 ## Paper List
 
 1. <span id = "1001">**[UntrimmedNets]**</span> | **CVPR'17** | UntrimmedNets for Weakly Supervised Action Recognition and Detection | [`[pdf]`](https://arxiv.org/pdf/1703.03329.pdf) | [`[o-matlab]`](https://github.com/wanglimin/UntrimmedNet)
@@ -212,6 +238,7 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 49. <span id = "1048">**[DCC]**</span> | **CVPR'22** | Exploring Denoised Cross-video Contrast for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://tianyu-yang.com/resources/dcc.pdf)
 48. <span id = "1049">**[Huang et al.]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
 50. <span id = "1050">**[ASM-Loc]**</span> | **CVPR'22** | ASM-Loc: Action-aware Segment Modeling for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2203.15187.pdf) | [`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)
+51. <span id = "1051">**[HAAN]**</span> | **ECCV'22** | Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions | [`[pdf]`](https://arxiv.org/pdf/2207.11805.pdf) | [`[o-pytorch]`](https://github.com/lizhi1104/HAAN)
 
 ##
 
