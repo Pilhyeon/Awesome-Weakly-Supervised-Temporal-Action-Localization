@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2022/8/15 (ECCV'22 added)*
+*Last updated: 2022/10/13 (MM'22 added)*
 
 ##
 
@@ -80,12 +80,14 @@ In addition, links to the implementations are attached with their framework spec
 | 42 | 2021 | ICCV  | [D2-Net](#1042)            |  65.7   |  60.2   |  52.3   |  43.4   |  36.0   |    -    |    -    |    -    |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
 | 43 | 2021 | ICCV  | [FAC-Net](#1043)           |  67.6   |  62.1   |  52.6   |  44.3   |  33.4   |  22.5   |  12.7   |  42.2   |[`[o-pytorch]`](https://github.com/LeonHLJ/FAC-Net)|
 | 44 | 2021 | MM    | [CSCL](#1044)              |  68.0   |  61.8   |  52.7   |  43.3   |  33.4   |  21.8   |  12.3   |  41.9   |        |
-| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |**38.3** |**26.4** |  13.4   |  44.6   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
+| 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  70.1   |  63.6   |  54.5   |  45.7   |  38.3   |  26.4   |  13.4   |  44.6   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  68.1   |  62.6   |  53.1   |  44.6   |  34.7   |  22.6   |  12.0   |  42.5   |        |
 | 47 | 2022 | CVPR  | [FTCL](#1047)              |  69.6   |  63.4   |  55.2   |  45.2   |  35.6   |  23.7   |  12.2   |  43.6   |[`[o-pytorch]`](https://github.com/MengyuanChen21/CVPR2022-FTCL)|
 | 48 | 2022 | CVPR  | [DCC](#1048)               |  69.0   |  63.8   |  55.9   |  45.9   |  35.7   |  24.3   |  13.7   |  44.0   |        |
-| 49 | 2022 | CVPR  | [Huang et al.](#1049)      |**71.3** |  65.3   |  55.8   |**47.5** |  38.2   |  25.4   |  12.5   |**45.1** |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
-| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  71.2   |**65.5** |**57.1** |  46.8   |  36.6   |  25.2   |  13.4   |**45.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 49 | 2022 | CVPR  | [Huang et al.](#1049)      |**71.3** |  65.3   |  55.8   |  47.5   |  38.2   |  25.4   |  12.5   |  45.1   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
+| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  71.2   |**65.5** |  57.1   |  46.8   |  36.6   |  25.2   |  13.4   |  45.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 51 | 2022 | MM    | [DGCNN](#1051)             |  66.3   |  59.9   |  52.3   |  43.2   |  32.8   |  22.1   |  13.1   |  41.3   |        |
+| 52 | 2022 | MM    | [Li et al.](#1052)         |  69.7   |  64.5   |**58.1** |**49.9** |**39.6** |**27.3** |  14.2   |**46.1** |        |
 
 ##
 
@@ -125,6 +127,8 @@ In addition, links to the implementations are attached with their framework spec
 | 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |**26.9** |   5.6   |**26.9** |        |
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  41.8   |  26.0   |   5.9   |  26.1   |        |
+| 51 | 2022 | MM    | [DGCNN](#1051)             |  42.0   |  25.8   |   6.0   |  26.2   |        |
+| 52 | 2022 | MM    | [Li et al.](#1052)         |  41.6   |  24.8   |   5.4   |  25.2   |        |
 
 ##
 
@@ -156,6 +160,7 @@ In addition, links to the implementations are attached with their framework spec
 | 48 | 2022 | CVPR  | [DCC](#1048)               |  38.8   |  24.2   |   5.7   |  24.3   |        |
 | 49 | 2022 | CVPR  | [Huang et al.](#1049)      |  40.6   |  24.6   |   5.9   |  25.0   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
 | 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |**41.0** |**24.9** |   6.2   |**25.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 51 | 2022 | MM    | [DGCNN](#1051)             |  37.2   |  23.8   |   5.8   |  23.9   |        |
 
 ##
 
@@ -167,7 +172,7 @@ In addition, links to the implementations are attached with their framework spec
 | 35 | 2021 | AAAI  | [Lee et al.](#1035) (Reprod.)|  6.65   |  3.23   |  0.95   |  3.64   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 | 37 | 2021 | CVPR  | [ASL](#1037) (Reprod.)     |  6.79   |  2.68   |  0.81   |  3.30   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
 | 42 | 2021 | ICCV  | [D2-Net](#1042) (Reprod.)  |  6.75   |  3.02   |  0.82   |  3.35   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
-| 51 | 2022 | ECCV  | [HAAN](#1051)              |**7.05** |**3.95** |**1.14** |**4.10** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
+| 53 | 2022 | ECCV  | [HAAN](#1053)              |**7.05** |**3.95** |**1.14** |**4.10** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
 
 ##
 
@@ -179,7 +184,7 @@ In addition, links to the implementations are attached with their framework spec
 | 35 | 2021 | AAAI  | [Lee et al.](#1035) (Reprod.)|  9.45   |  8.63   |  5.10   |  4.34   |  3.05   |  6.11   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
 | 37 | 2021 | CVPR  | [ASL](#1037) (Reprod.)     |  9.33   |  7.92   |  5.45   |  3.67   |  2.24   |  5.74   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
 | 42 | 2021 | ICCV  | [D2-Net](#1042) (Reprod.)  |  9.46   |  8.67   |  5.21   |  4.22   |  2.65   |  6.04   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
-| 51 | 2022 | ECCV  | [HAAN](#1051)              |**10.79**|**9.62** |**7.65** |**6.16** |**4.16** |**7.67** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
+| 53 | 2022 | ECCV  | [HAAN](#1053)              |**10.79**|**9.62** |**7.65** |**6.16** |**4.16** |**7.67** |[`[o-pytorch]`](https://github.com/lizhi1104/HAAN)|
 
 ##
 
@@ -238,7 +243,9 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 49. <span id = "1048">**[DCC]**</span> | **CVPR'22** | Exploring Denoised Cross-video Contrast for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://tianyu-yang.com/resources/dcc.pdf)
 48. <span id = "1049">**[Huang et al.]**</span> | **CVPR'22** | Weakly Supervised Temporal Action Localization via Representative Snippet Knowledge Propagation | [`[pdf]`](https://arxiv.org/pdf/2203.02925.pdf) | [`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)
 50. <span id = "1050">**[ASM-Loc]**</span> | **CVPR'22** | ASM-Loc: Action-aware Segment Modeling for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2203.15187.pdf) | [`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)
-51. <span id = "1051">**[HAAN]**</span> | **ECCV'22** | Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions | [`[pdf]`](https://arxiv.org/pdf/2207.11805.pdf) | [`[o-pytorch]`](https://github.com/lizhi1104/HAAN)
+51. <span id = "1051">**[DGCNN]**</span> | **MM'22** | Dynamic Graph Modeling for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://dl.acm.org/doi/pdf/10.1145/3503161.3548077)
+52. <span id = "1052">**[Li et al.]**</span> | **MM'22** | Forcing the Whole Video as Background: An Adversarial Learning Strategy for Weakly Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2207.06659.pdf)
+53. <span id = "1053">**[HAAN]**</span> | **ECCV'22** | Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions | [`[pdf]`](https://arxiv.org/pdf/2207.11805.pdf) | [`[o-pytorch]`](https://github.com/lizhi1104/HAAN)
 
 ##
 
