@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2022/10/13 (MM'22 & ECCV'22 added)*
+*Last updated: 2023/4/18 (WACV'23 added)*
 
 ##
 
@@ -87,8 +87,9 @@ In addition, links to the implementations are attached with their framework spec
 | 49 | 2022 | CVPR  | [Huang et al.](#1049)      |  71.3   |  65.3   |  55.8   |  47.5   |  38.2   |  25.4   |  12.5   |  45.1   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
 | 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  71.2   |  65.5   |  57.1   |  46.8   |  36.6   |  25.2   |  13.4   |  45.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 | 51 | 2022 | MM    | [DGCNN](#1051)             |  66.3   |  59.9   |  52.3   |  43.2   |  32.8   |  22.1   |  13.1   |  41.3   |        |
-| 52 | 2022 | MM    | [Li et al.](#1052)         |  69.7   |  64.5   |**58.1** |**49.9** |  39.6   |**27.3** |  14.2   |  46.1   |        |
-| 54 | 2022 | ECCV  | [DELU](#1054)              |**71.5** |**66.2** |  56.5   |  47.7   |**40.5** |  27.2   |  15.3   |**46.4** |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
+| 52 | 2022 | MM    | [Li et al.](#1052)         |  69.7   |  64.5   |  58.1   |**49.9** |  39.6   |**27.3** |  14.2   |  46.1   |        |
+| 54 | 2022 | ECCV  | [DELU](#1054)              |  71.5   |**66.2** |  56.5   |  47.7   |  40.5   |  27.2   |  15.3   |  46.4   |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
+| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |**72.3** |**66.5** |**58.6** |  49.5   |**40.7** |  27.1   |  13.7   |**46.9** |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
 
 ##
 
@@ -161,8 +162,9 @@ In addition, links to the implementations are attached with their framework spec
 | 47 | 2022 | CVPR  | [FTCL](#1047)              |  40.0   |  24.3   |   6.4   |  24.8   |[`[o-pytorch]`](https://github.com/MengyuanChen21/CVPR2022-FTCL)|
 | 48 | 2022 | CVPR  | [DCC](#1048)               |  38.8   |  24.2   |   5.7   |  24.3   |        |
 | 49 | 2022 | CVPR  | [Huang et al.](#1049)      |  40.6   |  24.6   |   5.9   |  25.0   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
-| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |**41.0** |**24.9** |   6.2   |**25.1** |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  41.0   |**24.9** |   6.2   |  25.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 | 51 | 2022 | MM    | [DGCNN](#1051)             |  37.2   |  23.8   |   5.8   |  23.9   |        |
+| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |**41.4** |  24.8   |   6.4   |**25.3** |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
 
 ##
 
@@ -249,6 +251,7 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 52. <span id = "1052">**[Li et al.]**</span> | **MM'22** | Forcing the Whole Video as Background: An Adversarial Learning Strategy for Weakly Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2207.06659.pdf)
 53. <span id = "1053">**[HAAN]**</span> | **ECCV'22** | Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions | [`[pdf]`](https://arxiv.org/pdf/2207.11805.pdf) | [`[o-pytorch]`](https://github.com/lizhi1104/HAAN)
 54. <span id = "1054">**[DELU]**</span> | **ECCV'22** | Dual-Evidential Learning for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640190.pdf) | [`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)
+55. <span id = "1055">**[TFE-DCN]**</span> | **WACV'23** | Temporal Feature Enhancement Dilated Convolution Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content/WACV2023/papers/Zhou_Temporal_Feature_Enhancement_Dilated_Convolution_Network_for_Weakly-Supervised_Temporal_Action_WACV_2023_paper.pdf) | [`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)
 
 ##
 
