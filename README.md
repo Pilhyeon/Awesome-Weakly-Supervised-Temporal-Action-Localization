@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2023/4/18 (WACV'23 added)*
+*Last updated: 2023/5/17 (CVPR'23 added)*
 
 ##
 
@@ -29,7 +29,7 @@ In addition, links to the implementations are attached with their framework spec
 
 \[Note\] <br/>
 *: use of additional trimmed videos <br/>
-&dagger;: use of additional information such as action count, pose, and audio
+&dagger;: use of additional information such as action count, pose, audio, and a large vision-language model
 
 ##
 
@@ -63,7 +63,7 @@ In addition, links to the implementations are attached with their framework spec
 | 24 | 2020 | CVPR  | [ActionBytes](#1024)       |    -    |    -    |  43.0   |  35.8   |  29.0   |    -    |   9.5   |    -    |        |
 | 25 | 2020 | CVPR  | [DGAM](#1025)              |  60.0   |  54.2   |  46.8   |  38.2   |  28.8   |  19.8   |  11.4   |  37.0   |[`[o-pytorch]`](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)|
 | 26 | 2020 | CVPR  | [Gong et al.](#1026)       |    -    |    -    |  46.9   |  38.9   |  30.1   |  19.8   |  10.4   |    -    |[`[o-pytorch]`](https://github.com/GGQ1996/action_co_localization/tree/master/ACL_Anet_release)|
-| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  59.1   |  52.7   |  45.5   |  36.8   |  30.5   |  22.7   |**16.4** |  37.7   |[`[o-pytorch]`](https://github.com/airmachine/EM-MIL-WeaklyActionDetection)|
+| 27 | 2020 | ECCV  | [EM-MIL](#1027)            |  59.1   |  52.7   |  45.5   |  36.8   |  30.5   |  22.7   |  16.4   |  37.7   |[`[o-pytorch]`](https://github.com/airmachine/EM-MIL-WeaklyActionDetection)|
 | 28 | 2020 | ECCV  | [A2CL-PT](#1028)           |  61.2   |  56.1   |  48.1   |  39.0   |  30.1   |  19.2   |  10.6   |  37.8   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | [TSCN](#1029)              |  63.4   |  57.6   |  47.8   |  37.7   |  28.7   |  19.4   |  10.2   |  37.8   |        |
 | 30 | 2020 | MM    | [ACM-BANet](#1030)         |  64.6   |  57.7   |  48.9   |  40.9   |  32.3   |  21.9   |  13.5   |  40.0   |        |
@@ -87,9 +87,15 @@ In addition, links to the implementations are attached with their framework spec
 | 49 | 2022 | CVPR  | [Huang et al.](#1049)      |  71.3   |  65.3   |  55.8   |  47.5   |  38.2   |  25.4   |  12.5   |  45.1   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
 | 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  71.2   |  65.5   |  57.1   |  46.8   |  36.6   |  25.2   |  13.4   |  45.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 | 51 | 2022 | MM    | [DGCNN](#1051)             |  66.3   |  59.9   |  52.3   |  43.2   |  32.8   |  22.1   |  13.1   |  41.3   |        |
-| 52 | 2022 | MM    | [Li et al.](#1052)         |  69.7   |  64.5   |  58.1   |**49.9** |  39.6   |**27.3** |  14.2   |  46.1   |        |
-| 54 | 2022 | ECCV  | [DELU](#1054)              |  71.5   |**66.2** |  56.5   |  47.7   |  40.5   |  27.2   |  15.3   |  46.4   |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
-| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |**72.3** |**66.5** |**58.6** |  49.5   |**40.7** |  27.1   |  13.7   |**46.9** |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
+| 52 | 2022 | MM    | [Li et al.](#1052)         |  69.7   |  64.5   |  58.1   |  49.9   |  39.6   |  27.3   |  14.2   |  46.1   |        |
+| 54 | 2022 | ECCV  | [DELU](#1054)              |  71.5   |  66.2   |  56.5   |  47.7   |  40.5   |  27.2   |  15.3   |  46.4   |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
+| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |  72.3   |  66.5   |  58.6   |  49.5   |  40.7   |  27.1   |  13.7   |  46.9   |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
+| 56 | 2023 | CVPR  | [Wang et al.](#1056)       |  73.0   |  68.2   |  60.0   |  47.9   |  37.1   |  24.4   |  12.7   |  46.2   |        |
+| 57 | 2023 | CVPR  | [Li et al.](#1057)         |    -    |    -    |  56.2   |  47.8   |  39.3   |  27.5   |  15.2   |    -    |[`[o-pytorch]`](https://github.com/lgzlIlIlI/Boosting-WTAL)|
+| 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  71.8   |  67.5   |  58.9   |  49.0   |  40.0   |  27.1   |  15.1   |  47.0   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
+| 59 | 2023 | CVPR  | [Zhou et al.](#1059)       |  74.0   |  69.4   |  60.7   |  51.8   |  42.7   |  26.2   |  13.1   |  48.3   |[`[o-pytorch]`](https://github.com/zhou745/GauFuse_WSTAL)|
+| 60 | 2023 | CVPR  | [Ju et al.&dagger;](#1060) |  73.5   |  68.8   |  61.5   |**53.8** |  42.0   |  29.4   |**16.8** |  49.4   |        |
+| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |**74.1** |**69.6** |**61.7** |  52.1   |**42.8** |**30.6** |  16.7   |**49.6** |        |
 
 ##
 
@@ -120,18 +126,20 @@ In addition, links to the implementations are attached with their framework spec
 | 33 | 2021 | AAAI  | [ACSNet](#1033)            |  40.1   |  26.1   | **6.8** |  26.0   |        |
 | 34 | 2021 | AAAI  | [HAM-Net](#1034)           |  41.0   |  24.8   |   5.3   |  25.1   |[`[o-pytorch]`](https://github.com/asrafulashiq/hamnet)|
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  41.2   |  25.6   |   6.0   |  25.9   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
-| 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|**44.8** |  26.7   |   1.0   |  26.0   |        |
+| 36 | 2021 | ICLR  | [Lee et al.&dagger;](#1036)|  44.8   |  26.7   |   1.0   |  26.0   |        |
 | 37 | 2021 | CVPR  | [ASL](#1037)               |  40.2   |    -    |    -    |  25.8   |[`[o-pytorch]`](https://github.com/layer6ai-labs/ASL)|
 | 38 | 2021 | CVPR  | [CoLA](#1038)              |  42.7   |  25.7   |   5.8   |  26.1   |[`[o-pytorch]`](https://github.com/zhang-can/CoLA)|
 | 39 | 2021 | CVPR  | [AUMN](#1039)              |  42.0   |  25.0   |   5.6   |  25.5   |        |
 | 41 | 2021 | CVPR  | [UGCT](#1041)              |  41.8   |  25.3   |   5.9   |  25.8   |        |
 | 42 | 2021 | ICCV  | [D2-Net](#1042)            |  42.3   |  25.5   |   5.8   |  26.0   |[`[o-pytorch]`](https://github.com/naraysa/D2-Net)|
-| 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |**26.9** |   5.6   |**26.9** |        |
+| 44 | 2021 | MM    | [CSCL](#1044)              |  43.8   |  26.9   |   5.6   |  26.9   |        |
 | 45 | 2021 | MM    | [CO<sub>2</sub>-Net](#1045)|  43.3   |  26.3   |   5.2   |  26.4   |[`[o-pytorch]`](https://github.com/harlanhong/MM2021-CO2-Net)|
 | 46 | 2022 | AAAI  | [ACGNet](#1046)            |  41.8   |  26.0   |   5.9   |  26.1   |        |
 | 51 | 2022 | MM    | [DGCNN](#1051)             |  42.0   |  25.8   |   6.0   |  26.2   |        |
 | 52 | 2022 | MM    | [Li et al.](#1052)         |  41.6   |  24.8   |   5.4   |  25.2   |        |
-| 54 | 2022 | ECCV  | [DELU](#1054)              |  44.2   |  26.7   |   5.4   |**26.9** |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
+| 54 | 2022 | ECCV  | [DELU](#1054)              |  44.2   |  26.7   |   5.4   |  26.9   |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
+| 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  44.2   |  26.1   |   5.3   |  26.5   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
+| 60 | 2023 | CVPR  | [Ju et al.&dagger;](#1060) |**48.3** |**29.3** |   6.1   |**29.6** |        |
 
 ##
 
@@ -151,7 +159,7 @@ In addition, links to the implementations are attached with their framework spec
 | 19 | 2020 | AAAI  | [BaS-Net](#1019)           |  34.5   |  22.5   |   4.9   |  22.2   |[`[o-pytorch]`](https://github.com/Pilhyeon/BaSNet-pytorch)|
 | 28 | 2020 | ECCV  | [A2CL-PT](#1028)           |  36.8   |  22.0   |   5.2   |  22.5   |[`[o-pytorch]`](https://github.com/MichiganCOG/A2CL-PT)|
 | 29 | 2020 | ECCV  | [TSCN](#1029)              |  35.3   |  21.4   |   5.3   |  21.7   |        |
-| 30 | 2020 | MM    | [ACM-BANet](#1030)         |  37.6   |  24.7   | **6.5** |  24.4   |        |
+| 30 | 2020 | MM    | [ACM-BANet](#1030)         |  37.6   |  24.7   |   6.5   |  24.4   |        |
 | 32 | 2021 | AAAI  | [Liu et al.](#1032)        |  35.1   |  23.7   |   5.6   |  23.2   |        |
 | 33 | 2021 | AAAI  | [ACSNet](#1033)            |  36.3   |  24.2   |   5.8   |  23.9   |        |
 | 35 | 2021 | AAAI  | [Lee et al.](#1035)        |  37.0   |  23.9   |   5.7   |  23.7   |[`[o-pytorch]`](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)|
@@ -162,9 +170,14 @@ In addition, links to the implementations are attached with their framework spec
 | 47 | 2022 | CVPR  | [FTCL](#1047)              |  40.0   |  24.3   |   6.4   |  24.8   |[`[o-pytorch]`](https://github.com/MengyuanChen21/CVPR2022-FTCL)|
 | 48 | 2022 | CVPR  | [DCC](#1048)               |  38.8   |  24.2   |   5.7   |  24.3   |        |
 | 49 | 2022 | CVPR  | [Huang et al.](#1049)      |  40.6   |  24.6   |   5.9   |  25.0   |[`[o-pytorch]`](https://github.com/LeonHLJ/RSKP)|
-| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  41.0   |**24.9** |   6.2   |  25.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
+| 50 | 2022 | CVPR  | [ASM-Loc](#1050)           |  41.0   |  24.9   |   6.2   |  25.1   |[`[o-pytorch]`](https://github.com/boheumd/ASM-Loc)|
 | 51 | 2022 | MM    | [DGCNN](#1051)             |  37.2   |  23.8   |   5.8   |  23.9   |        |
-| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |**41.4** |  24.8   |   6.4   |**25.3** |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
+| 55 | 2023 | WACV  | [TFE-DCN](#1055)           |  41.4   |  24.8   |   6.4   |  25.3   |[`[o-pytorch]`](https://github.com/jianxiong-zhou/TFE-DCN)|
+| 56 | 2023 | CVPR  | [Wang et al.](#1056)       |  41.8   |  25.7   |   6.5   |  26.3   |        |
+| 57 | 2023 | CVPR  | [Li et al.](#1057)         |  41.8   |  26.0   |   6.0   |  26.0   |[`[o-pytorch]`](https://github.com/lgzlIlIlI/Boosting-WTAL)|
+| 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  41.8   |  25.4   |   5.2   |  25.5   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
+| 59 | 2023 | CVPR  | [Zhou et al.](#1059)       |  43.4   |**28.8** |**9.9**  |**28.8** |[`[o-pytorch]`](https://github.com/zhou745/GauFuse_WSTAL)|
+| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |**45.1** |  28.2   |  5.0    |  28.1   |        |
 
 ##
 
