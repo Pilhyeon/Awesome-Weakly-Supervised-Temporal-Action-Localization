@@ -4,7 +4,7 @@ A curated publication list on weakly-supervised temporal action localization.
 This repository was built to facilitate navigating the mainstream on weakly-supervised temporal action localization.  
 Please note that only **accepted** papers (for reliability) by **conferences** (for brevity) are contained here.
 
-*Last updated: 2023/5/17 (CVPR'23 added)*
+*Last updated: 2023/11/27 (ICCV'23 added)*
 
 ##
 
@@ -95,7 +95,11 @@ In addition, links to the implementations are attached with their framework spec
 | 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  71.8   |  67.5   |  58.9   |  49.0   |  40.0   |  27.1   |  15.1   |  47.0   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
 | 59 | 2023 | CVPR  | [Zhou et al.](#1059)       |  74.0   |  69.4   |  60.7   |  51.8   |  42.7   |  26.2   |  13.1   |  48.3   |[`[o-pytorch]`](https://github.com/zhou745/GauFuse_WSTAL)|
 | 60 | 2023 | CVPR  | [Ju et al.&dagger;](#1060) |  73.5   |  68.8   |  61.5   |**53.8** |  42.0   |  29.4   |**16.8** |  49.4   |        |
-| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |**74.1** |**69.6** |**61.7** |  52.1   |**42.8** |**30.6** |  16.7   |**49.6** |        |
+| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |  74.1   |**69.6** |**61.7** |  52.1   |**42.8** |**30.6** |  16.7   |**49.6** |        |
+| 62 | 2023 | ICCV  | [CASE](#1062)              |  72.3   |    -    |  59.2   |    -    |  37.7   |    -    |  13.7   |    -    |[`[o-pytorch]`](https://github.com/Qinying-Liu/CASE)|
+| 63 | 2023 | ICCV  | [Wang et al.](#1063)       |**75.1** |  68.9   |  60.2   |  48.9   |  38.3   |  26.8   |  14.7   |  47.2   |        |
+| 64 | 2023 | ICCV  | [DDG-Net](#1064)           |  72.5   |  67.7   |  58.2   |  49.0   |  41.4   |  27.6   |  14.8   |  47.3   |[`[o-pytorch]`](https://github.com/XiaojunTang22/ICCV2023-DDGNet)|
+
 
 ##
 
@@ -140,6 +144,8 @@ In addition, links to the implementations are attached with their framework spec
 | 54 | 2022 | ECCV  | [DELU](#1054)              |  44.2   |  26.7   |   5.4   |  26.9   |[`[o-pytorch]`](https://github.com/MengyuanChen21/ECCV2022-DELU)|
 | 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  44.2   |  26.1   |   5.3   |  26.5   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
 | 60 | 2023 | CVPR  | [Ju et al.&dagger;](#1060) |**48.3** |**29.3** |   6.1   |**29.6** |        |
+| 62 | 2023 | ICCV  | [CASE](#1062)              |  43.8   |  27.2   |   6.7   |  27.9   |[`[o-pytorch]`](https://github.com/Qinying-Liu/CASE)|
+| 64 | 2023 | ICCV  | [DDG-Net](#1064)           |  44.3   |  26.9   |   5.5   |  27.0   |[`[o-pytorch]`](https://github.com/XiaojunTang22/ICCV2023-DDGNet)|
 
 ##
 
@@ -177,7 +183,9 @@ In addition, links to the implementations are attached with their framework spec
 | 57 | 2023 | CVPR  | [Li et al.](#1057)         |  41.8   |  26.0   |   6.0   |  26.0   |[`[o-pytorch]`](https://github.com/lgzlIlIlI/Boosting-WTAL)|
 | 58 | 2023 | CVPR  | [Ren et al.](#1058)        |  41.8   |  25.4   |   5.2   |  25.5   |[`[o-pytorch]`](https://github.com/RenHuan1999/CVPR2023_P-MIL)|
 | 59 | 2023 | CVPR  | [Zhou et al.](#1059)       |  43.4   |**28.8** |**9.9**  |**28.8** |[`[o-pytorch]`](https://github.com/zhou745/GauFuse_WSTAL)|
-| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |**45.1** |  28.2   |  5.0    |  28.1   |        |
+| 61 | 2023 | CVPR  | [PivoTAL](#1061)           |**45.1** |  28.2   |   5.0   |  28.1   |        |
+| 62 | 2023 | ICCV  | [CASE](#1062)              |  43.2   |  26.2   |   6.7   |  26.8   |[`[o-pytorch]`](https://github.com/Qinying-Liu/CASE)|
+| 63 | 2023 | ICCV  | [Wang et al.](#1063)       |  42.3   |  24.8   |   6.9   |  25.9   |        |
 
 ##
 
@@ -271,6 +279,9 @@ and Denoised Activations | [`[pdf]`](https://arxiv.org/pdf/2012.06440.pdf) | [`[
 59. <span id = "1059">**[Zhou et al.]**</span> | **CVPR'23** | Improving Weakly Supervised Temporal Action Localization by Bridging Train-Test Gap in Pseudo Labels | [`[pdf]`](https://arxiv.org/pdf/2304.07978.pdf) | [`[o-pytorch]`](https://github.com/zhou745/GauFuse_WSTAL)
 60. <span id = "1060">**[Ju et al.&dagger;]**</span> | **CVPR'23** | Distilling Vision-Language Pre-training to Collaborate with Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2212.09335.pdf)
 61. <span id = "1061">**[PivoTAL]**</span> | **CVPR'23** | PivoTAL: Prior-Driven Supervision for Weakly-Supervised Temporal Action Localization | [`[pdf]`](https://openaccess.thecvf.com/content/CVPR2023/papers/Rizve_PivoTAL_Prior-Driven_Supervision_for_Weakly-Supervised_Temporal_Action_Localization_CVPR_2023_paper.pdf)
+62. <span id = "1062">**[CASE]**</span> | **ICCV'23** | Revisiting Foreground and Background Separation in Weakly-supervised Temporal Action Localization: A Clustering-based Approach | [`[pdf]`](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_Revisiting_Foreground_and_Background_Separation_in_Weakly-supervised_Temporal_Action_Localization_ICCV_2023_paper.pdf) | [`[o-pytorch]`](https://github.com/Qinying-Liu/CASE)
+63. <span id = "1063">**[Wang et al.]**</span> | **ICCV'23** | Weakly-Supervised Action Localization by Hierarchically-structured Latent Attention Modeling | [`[pdf]`](https://arxiv.org/pdf/2308.09946.pdf)
+64. <span id = "1064">**[DDG-Net]**</span> | **ICCV'23** | DDG-Net: Discriminability-Driven Graph Network for Weakly-supervised Temporal Action Localization | [`[pdf]`](https://arxiv.org/pdf/2307.16415.pdf) | [`[o-pytorch]`](https://github.com/XiaojunTang22/ICCV2023-DDGNet)
 
 ##
 
